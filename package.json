@@ -1,0 +1,28 @@
+{
+  "name": "ancientq",
+  "version": "1.0.0",
+  "description": "AncientQ — Ancient Principles, Quantum Frontiers. Interactive science reconstructions.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "android:init": "npx cap init ancientq com.ancientq.app --web-dir dist && npx cap add android",
+    "android:sync": "vite build && npx cap sync android",
+    "android:open": "npx cap open android",
+    "android:run": "vite build && npx cap sync android && npx cap run android"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/cli": "^6.1.0",
+    "@capacitor/core": "^6.1.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.0"
+  }
+}

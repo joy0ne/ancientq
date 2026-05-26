@@ -1,0 +1,1079 @@
+// ═══════════════════════════════════════════════════════════════
+// SCIVERSE DATA — Extracted to enable Vite code-splitting
+// Imported by App.jsx → DeepScience component
+// Reduces initial bundle parse time by ~130KB
+// ═══════════════════════════════════════════════════════════════
+
+export const SCI = {
+  concrete: [
+    {
+      title: `Self-healing materials`,
+      sub: `White Sottos Moore microcapsules / Diels-Alder / vitrimers / supramolecular / concrete biological`,
+      paragraphs: [
+        `Self-healing materials — synthetic materials that autonomously or semi-autonomously repair damage, extending lifetime + improving safety; inspired by biological systems (skin healing, bone remodeling). Multiple mechanisms — microencapsulated healing agents, reversible chemistry, vitrimers, supramolecular interactions, intrinsic dynamic bonds, biological systems. Scott White + Nancy Sottos + Jeff Moore (Illinois) 2001 Nature paper launched modern field. Commercial + research applications growing 2010s-2020s — coatings, concrete, polymers, electronics, soft robotics.`,
+        `Categories of self-healing:1. Capsule-based (extrinsic):• Microencapsulated healing agent embedded in matrix;• Crack ruptures capsules → releases liquid healant → contacts catalyst → polymerizes filling crack;• White-Sottos-Moore 2001 — first major demonstration with DCPD + Grubbs ROMP catalyst;• Single-use typically — capsules consumed;• Industrial applications — paint, coatings, sealants;2. Vascular-based:• Continuous fluid networks in material;• Repeated healing possible;• Self-Healing Polymers (White lab) microvascular networks;• Composites with vascular channels;• Inspired by vascular systems in plants/animals;3. Intrinsic self-healing:• Reversible chemistry — bonds reform after breaking;• No additional materials needed;• Repeated healing possible;• Often requires heat/light stimulus;• Most active research area.`,
+        `Intrinsic mechanisms:Reversible covalent bonds:• Diels-Alder/retro-Diels-Alder — thermal reversibility; furan-maleimide systems;• Disulfide bonds (-S-S-) — redox-responsive; major chemistry;• Diselenide;• Alkoxyamines + radical exchange;• Boronate ester;• Hindered urea bonds;• Acylhydrazones;• Vinyl ester;• Imines;Supramolecular interactions:• Hydrogen bonding — multiple H-bonds collectively strong but individually reversible;• Stefan Hecht, Justin Mynar, Stuart Rowan, Costas Tziolos research;• Metal-ligand coordination — Zn²⁺, Ni²⁺, Fe²⁺, Co²⁺ binding to ligands;• π-π stacking;• Host-guest chemistry (cyclodextrins, cucurbiturils);Ionic interactions:• Polyelectrolyte complexes;• Ionomers;Hybrid systems — multiple mechanisms combined.`,
+        `Vitrimers — recent paradigm:Vitrimers — Ludwik Leibler (ESPCI Paris) 2011;Crosslinked networks with dynamic covalent exchange;• Topology rearranges via bond exchange at elevated temperature;• Glass-like behavior at low temp + processable at high temp;• Solid + recyclable simultaneously;• Major impact on thermoset polymers (epoxies);Mechanisms:• Transesterification (original Leibler vitrimers);• Transamidation;• Imine exchange;• Disulfide exchange;• Boronic ester exchange;• Olefin metathesis;Applications:• Recyclable epoxies — composites end-of-life recycling;• Self-healing thermosets;• Reshaping + repair;• Mallinda + others commercializing.`,
+        `Self-healing concrete:Major application area — concrete cracks reduce durability + lifespan;Bacteria-based (biological):• Bacillus pseudofirmus or similar — dormant spores in concrete;• When crack forms + water enters, bacteria germinate + produce calcium carbonate (limestone);• Crack "healed" with biomineralization;• Hendrik Jonkers (TU Delft) pioneered;• BASF + others commercial products;• BioConcrete + Basilisk + others;Chemical approaches:• Crystalline admixtures;• Microencapsulated polymers;• Sodium silicate;• Crystalline waterproofing;Polymer fibers with healing agents;Major economic + sustainability driver — concrete is largest-volume material globally; longer life = lower carbon.`,
+        `Applications + commercial:Automotive coatings:• Nissan Scratch Shield 2009 — first commercial self-healing automotive paint (clear coat heals minor scratches over weeks);• BMW, Mercedes additional offerings;• Sherwin-Williams, Akzo Nobel paint companies;Smartphone screens:• LG G Flex (2013) — self-healing back panel polymer coating;• Recent foldable phones use self-healing polymer coatings;• Samsung Galaxy Fold screens incorporate self-healing layer;Aerospace + automotive coatings:• Anti-corrosion self-healing coatings;• Boeing + Airbus research;• Inhibitor-loaded microcapsules in metal coatings;Soft robotics + actuators:• Cecilia Laschi, Sabine Saigle;• Wearable + medical robotics;• Octopus-inspired;Electronics:• Self-healing conductive polymers;• Wearable sensors;• Stretchable circuits;• Zhenan Bao (Stanford) + Christoph Keplinger research;Wearable + biomedical:• Self-healing hydrogels for wound dressings;• Drug delivery;• Tissue engineering scaffolds;Tires:• Self-healing rubber compounds;• Continental + others research;Pipelines + infrastructure:• Self-sealing coatings.`,
+        `Outlook 2024-2030: continued research + commercialization across industries; vitrimers mainstream for recyclable thermosets; self-healing concrete infrastructure adoption; flexible electronics + wearables growing market; integration with smart materials — sensors, actuators, energy harvesters; sustainability driver increasingly important — longer-lasting materials reduce waste + embodied carbon; biological inspiration continues; AI-aided design of self-healing polymers; autonomous self-healing remaining frontier (vs externally-triggered). Among most active + practically important smart materials areas.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Green Cement`,
+      sub: `Low-Carbon`,
+      paragraphs: [],
+      theses: [
+        `Sublime-Brimstone.`,
+      ],
+    },
+    {
+      title: `Green Cement 2024`,
+      sub: `Calcined Clay`,
+      paragraphs: [],
+      theses: [
+        `Cement 8% global CO2 — calcination CaCO3→CaO+CO2 fundamental chemistry releases CO2 + fuel heat to 1450°C, hard to decarbonize.`,
+        `LC3 limestone calcined clay cement — Scrivener EPFL, 30-50% clinker replacement with calcined kaolinite + limestone, comparable strength.`,
+        `Sublime Systems — MIT spinout, room-temp electrochemical Ca production, $87M Series A 2023, Holcim partnership 2024.`,
+        `Brimstone — calcium silicate rocks (vs limestone) feedstock, no process CO2, Microsoft 100kT offtake 2024, demo plant Reno.`,
+        `CarbonCure + Solidia — CO2 injection during concrete mixing + cure, modest sequestration but commercial today, Heidelberg + CRH adoption.`,
+      ],
+    },
+    {
+      title: `Cement & Concrete Chemistry`,
+      sub: `Portland cement hydration, C-S-H gel, admixtures, carbon footprint, green alternatives`,
+      paragraphs: [
+        `Concrete is the most consumed manufactured material on Earth — ~30 billion tons/year (~4 tons per person). Portland cement is made by heating limestone (CaCO₃) and clay at 1450°C in a rotary kiln, producing clinker containing four main phases: C₃S (alite, 50-70% — rapid strength), C₂S (belite, 15-30% — long-term strength), C₃A (aluminate, 5-10% — fast hydration), C₄AF (ferrite, 5-15% — color). Gypsum (CaSO₄·2H₂O) is added to control setting time.`,
+        `Hydration: C₃S + water → C-S-H gel (calcium silicate hydrate — the primary binding phase, a disordered nanostructured material) + Ca(OH)₂ (portlandite). The C-S-H gel has Ca/Si ≈ 1.7 and grows as nanoscale foils filling pore space. Strength increases logarithmically with time — 28-day strength is the standard benchmark. w/c ratio (water/cement) is the single most important parameter: lower w/c → less porosity → higher strength and durability (typical 0.4-0.6). Admixtures: superplasticizers (reduce w/c without losing workability), air entrainers (freeze-thaw resistance), accelerators (CaCl₂), and retarders (sugar). Cement production generates ~8% of global CO₂ (~4 Gt/year) — from CaCO₃ → CaO + CO₂ (process emissions) + fuel combustion. Green alternatives: geopolymers (fly ash/slag activated by alkali), LC3 (limestone calcined clay cement — 40% less CO₂), and carbon-cured concrete (mineralizing CO₂ into CaCO₃ within the matrix).`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Cement Production`,
+      sub: `Calcination Chemistry`,
+      paragraphs: [],
+      theses: [
+        `economic + societal impact traced.`,
+      ],
+    },
+    {
+      title: `Green Cement 2026`,
+      sub: `Low-Carbon + Capture`,
+      paragraphs: [],
+      theses: [
+        `Cement — ~8% global CO2, calcination + fuel emissions hard.`,
+        `SCMs — calcined clay LC3 + slag clinker substitution 2026.`,
+        `Novel binders — Sublime electrochem + Brimstone carbon-negative 2026.`,
+        `CCUS — Heidelberg + Holcim cement plant capture pilots 2026.`,
+        `CO2 curing — CarbonCure + Solidia mineralization concrete 2026.`,
+      ],
+    },
+    {
+      title: `Carbon-Negative Concrete`,
+      sub: `Mineralized Cement`,
+      paragraphs: [],
+      theses: [
+        `Brimstone + Sublime.`,
+      ],
+    },
+    {
+      title: `Concrete Decarbonization`,
+      sub: `Low-Carbon Cement`,
+      paragraphs: [],
+      theses: [
+        `Concrete 8% global CO2 — cement clinker calcination CaCO3 → CaO + CO2 releases CO2 + fuel heat to 1450°C dual emissions.`,
+        `LC3 limestone calcined clay — Scrivener EPFL, 30-50% clinker replacement with calcined kaolinite + limestone, comparable strength.`,
+        `Sublime Systems — MIT spinout 2020, room-temp electrochemical Ca production, $87M Series A 2023, Holcim partnership 2024.`,
+        `Brimstone — calcium silicate rocks vs limestone feedstock, no process CO2, Microsoft 100kT offtake 2024, demo plant Reno.`,
+        `CarbonCure + Solidia — CO2 injection during concrete mixing + cure, modest sequestration but commercial today, Heidelberg + CRH adoption.`,
+      ],
+    },
+    {
+      title: `Sublime Systems Cement`,
+      sub: `Electrochemical`,
+      paragraphs: [],
+      theses: [
+        `ambient-electrolysis cement.`,
+      ],
+    },
+    {
+      title: `Prestressed Concrete`,
+      sub: `Pre-tensioning, post-tensioning, Freyssinet`,
+      paragraphs: [
+        `Prestressed concrete introduces compressive stress to counteract anticipated tensile stresses from service loads. Concrete's tensile strength is ~10% of compressive (ft ≈ 0.1 f′c); cracking under bending limits effective use. Eugène Freyssinet (1928) patented modern prestressing using high-strength steel tendons; Magnel developed wedge anchorage. Two methods:`,
+        `(1) Pre-tensioning: tendons stressed in casting bed, concrete cast around them, after curing tendons released and force transfers via bond (transfer length ~50-100·ø). Used for precast: hollow-core slabs, double-tees, AASHTO girders. Strands: 7-wire 12.7 or 15.2 mm ø, fpu = 1860 MPa, jacked to 0.75 fpu = 1395 MPa. (2) Post-tensioning: tendons threaded through ducts (bonded — grouted; or unbonded — greased + sheathed), stressed against hardened concrete using hydraulic jacks (Freyssinet K-range, VSL multi-strand anchorages — wedges grip strands in conical anchor). Used for cast-in-place: bridges (segmental cantilever construction — Brotonne, Sundsvall, Rio-Niterói 8.3 km), nuclear containment domes, floor slabs in tall buildings. Tendon types: monostrands (15.2 mm) up to 200 kN, multistrand (12-31 strands per duct) up to 6 MN.`,
+        `Losses: total ~15-25% from jacking force, comprising (a) elastic shortening ~3% (concrete compresses on transfer); (b) friction in post-tension ducts (µ = 0.15-0.25, wobble K=0.005-0.025/m); (c) anchorage seating ~6 mm wedge draw-in; (d) creep of concrete (φ ≈ 2-3, time-dependent); (e) shrinkage (εsh ≈ 500·⁻⁶); (f) relaxation of steel (~3% for low-relaxation strand). Design: at service, compute combined stresses σ = -P/A ± M·c/I ± Pe·c/I, limit per ACI 318 / Eurocode 2 (no tension at transfer, allowable tension service). Strength check: ultimate moment using stress block compatibility, strain in tendon εps at ultimate. External post-tensioning: tendons outside concrete section, replaceable — used for retrofit & long-span bridges. Frontier: CFRP tendons (corrosion-immune, low relaxation), UHPC prestressed beams enabling 50+ m span shallow sections.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Nanomaterials & Surfaces`,
+      sub: `Nanoparticles, surface area, quantum dots, graphene`,
+      paragraphs: [
+        `Nanomaterials (1-100 nm) exhibit unique properties from quantum confinement and extreme surface/volume ratio ∝ 1/r. A 1nm particle has ~50% surface atoms vs <1% for 1μm. Quantum dots (CdSe, 2-10nm): bandgap ∝ 1/r² → size-tunable fluorescence (Nobel 2023). Gold nanoparticles: red (13nm) → blue (100nm) via surface plasmon resonance.`,
+        `Carbon nanomaterials: C₆₀ fullerenes (Nobel 1996), CNTs (tensile 100 GPa, 100× steel at 1/6 density, conductivity like Cu), graphene (Nobel 2010: μ = 200,000 cm²/V·s, σ = 130 GPa, one atom thick). Synthesis: top-down (lithography) vs bottom-up (CVD, sol-gel, self-assembly). Surface functionalization (−COOH, −NH₂, PEG) enables targeting and biocompatibility. Applications: drug delivery (Doxil 1995, first nano-drug), QD displays (TVs), catalysis (high surface area → 10-100× activity), Li-ion electrodes, nanofiltration, gold NP pregnancy tests, sunscreen (ZnO, TiO₂ NPs). Concerns: nanotoxicology — NPs can cross cell membranes, blood-brain barrier; environmental fate uncertain.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `MOFs e direct air capture`,
+      sub: `Yaghi / MOF-74 / amine functionalization / DAC plant Climeworks Mammoth`,
+      paragraphs: [
+        `MOFs (Metal-Organic Frameworks) são class de hybrid crystalline materials com metal nodes (single ions ou clusters multi-metallic) connectados por organic linkers (carboxylates, imidazolates, pyridines etc) — formando estruturas porosas 3D com surfaces areas astronomically high (até 7800 m²/g recordista MOF-210) — equivalent a um campo de futebol per gram. Pioneered por Omar Yaghi (UC Berkeley, Iraqi-American) com seminal MOF-5 (1999 Nature) — Zn₄O cluster + benzene-1,4-dicarboxylate linker; subsequent thousands of MOF topologies + chemistries reportadas. Modular design via "reticular chemistry": choose metal node + organic linker → predictable framework topology + properties. COFs (Covalent Organic Frameworks) — all-organic relatives (boronic acid, imine, etc bonds).`,
+        `Properties exploitable: high surface area (storage); pore size tunable (1-50 Å range, sub-nm to mesoporous); chemical functionality incorporable via linker design (hydroxyl, amine, halide, etc.); thermal stability wide range (MOF-74 family stable to 350°C); active metal sites (open metal sites coordinate guests with high affinity — important for catalysis + selective adsorption).`,
+        `Applications:Gas storage — H₂ storage at relatively low pressures, CH₄ storage for natural gas vehicles, ammonia, CO. Gas separation — selectively adsorb one component over another. Catalysis — confined cavity with active sites for reactions (asymmetric synthesis, hydrogenation, oxidation). Drug delivery — biocompatible MOFs (MIL-100, MIL-101, ZIF-8) load and release drugs via pH/ionic strength triggers. Sensing — selective binding of analytes triggers fluorescence/conductance changes. Water harvesting from atmosphere — MOF-303 + MOF-801 (Yaghi 2018+) adsorb water vapor at low humidity, release with mild heating — passive water generation in arid environments; Water Harvester (Yaghi spinoff company commercializing). CO₂ capture — major focus, see below.`,
+        `CO₂ capture + Direct Air Capture (DAC) — most discussed application. Two contexts: (1) post-combustion capture at point sources (power plants, cement factories, ~5-15% CO₂ in flue gas) — concentrated source, mature scrubber tech (amine scrubbers, MEA-based, energy-intensive ~3-4 GJ/ton CO₂); MOFs can compete via lower regeneration energy. (2) direct air capture (DAC) — extract CO₂ directly from ambient air (~420 ppm = 0.042% — extremely dilute) — much harder thermodynamically, requires high selectivity material; emerging field, several pilot plants. MOF-74 (M-MOF-74, M = Mg, Co, Ni) with open metal sites binding CO₂ strongly; amine-functionalized MOFs mimic amine scrubber chemistry but in solid sorbent form, lower regeneration energy.`,
+        `DAC commercial: Climeworks (Zurich, Switzerland) — uses solid amine sorbents (not MOFs typically — proprietary structured sorbents); Mammoth plant Iceland 2024 — largest DAC operating 36,000 tCO₂/year capacity (still tiny vs global emissions ~37 GtCO₂/yr — DAC remains expensive ~$500-1000/ton current, target <$100/ton needed at scale). Carbon Engineering (Canada) — alkaline solution (KOH) chemistry, larger plants planned 1 MtCO₂/yr Texas (now owned Occidental). 1PointFive Stratos — operating in Texas, captured CO₂ for EOR + sequestration. MOF-based DAC startups: Avnos, Mosaic Materials (now part of BASF), Heirloom Carbon, RepAir Carbon (electrochemistry-based), Spiritus, Verdox. IRA Inflation Reduction Act (US 2022) 45Q tax credit $180/tCO₂ DAC-sequestered created economics for early scaling. DAC Hub program — $3.5B US DOE funding for 4 regional hubs.`,
+        `Challenges DAC: energy regeneration (heat or pressure swing to desorb CO₂ — typically 1.5-3 GJ/tCO₂ best sorbents, prefer renewable energy); water consumption; cost scaling (current ~$500-1000/tCO₂ → target <$100); materials degradation over thousands of cycles; scale (gigaton scale for climate impact requires plants of unprecedented size + abundant clean energy + cheap CO₂ storage geological). Sequestration: geological injection (basalt mineralization Iceland Climeworks/Carbfix injects in basalt mineralizes carbonates rapidly), saline aquifer, depleted oil/gas reservoirs, ocean alkalinity enhancement. Public reception: critique that DAC distracts emission reduction; advocates emphasize necessary for "hard-to-abate" sectors + legacy emissions removal. IPCC AR6 nearly all 1.5°C scenarios require massive CDR (Carbon Dioxide Removal) including DAC.`,
+      ],
+      theses: [],
+    },
+  ],
+  tesla: [
+    {
+      title: `Wireless power transfer`,
+      sub: `Qi standard / WiTricity resonant / EV inductive / SAE J2954 / Caltech space solar`,
+      paragraphs: [
+        `Nikola Tesla pioneirou wireless power ~1890s — Wardenclyffe Tower esquema global de wireless power (comercialmente falhou mas visionário). Modern WPT comercial 2010s+ via duas técnicas: inductive coupling (curto alcance, maduro) + magnetic resonance (alcance maior, emergindo).`,
+        `Inductive coupling: near-field magnetic induction entre coil primário (transmitter) + secundário (receiver); tightly coupled quando alinhados + próximos (mm-cm); alta eficiência >90% perto. Standards: Qi (Wireless Power Consortium) — dominante consumer; 5-15 W para phones, earbuds, smartwatches; iPhones (desde 2017), Android, AirPods cases, vehicle consoles. Qi v2 + Qi2 (2023+) — magnetic alignment (MagSafe-style — Apple opened ecosystem); eficiência + interoperabilidade.`,
+        `Resonant magnetic coupling: WiTricity (MIT Marin Soljačić 2007 — demonstração 60W bulb 2m) — ambos coils ressoam mesma frequência → energia troca eficientemente mesmo com looser coupling (~10s cm); WiTricity commercial company licenciando; chave para higher-power.`,
+        `EV wireless charging: SAE J2954 standard (2017+, updates 2020+, 2024) — wireless para light-duty EVs em 3.7 kW (WPT1), 7.7 kW (WPT2), 11 kW (WPT3), 22 kW (WPT4) a 85 kHz; alignment + foreign object detection + interoperabilidade. Plugless Power (now WiTricity) early commercial; Genesis GV60 primeiro OEM com wireless charging factory 2023; BMW previamente offered option iX EV; Tesla em desenvolvimento. Static charging deployment comercial; dynamic (in-motion via embedded road coils) experimental — Sweden, Indiana, Alemanha pilots.`,
+        `Aplicações: Consumer electronics — Qi widely adopted, ~$5-15B annual; phones, wearables. Medical devices — implantable charging (pacemakers, neurostimulators); prioridade research. Industrial — AGVs, warehouse robots. Logistics/fleet — bus stops com wireless charging (Wenatchee WA, Utah, Alemanha); taxi waiting areas. EV adoption barriers — convenience; accessibility; autonomy + robotaxi alignment (robots can't plug in cables — wireless mandatory). Drones + robotics charging pads autonomous. Smart city + IoT sensor power.`,
+        `Power beaming (long-distance): microwave + laser beaming — física diferente, far-field; Caltech Space Solar Power Demonstrator 2023 launch demonstrou proof-of-concept space-to-Earth microwave power beaming. Solar power satellites conceito visionário — orbital solar coletada + beamed Earth — Northrop Grumman + Lockheed + Caltech + China + Japão + Korea investigação. Defense applications — power beaming forward bases, drones. Civilian commercial ~2040+ se houver; substantial engineering + economics challenges.`,
+        `Concerns + limits: efficiency — wireless sempre menor que wired (típico 80-92% wireless vs ~95%+ wired); EMI + safety (foreign objects causam heating, must detect — FOD); human exposure safety standards (FCC + ICNIRP); cost — wireless infrastructure 1.5-2x equivalent wired; standards fragmentation resolvendo. Outlook: consumer wireless charging ubiquitous next decade; EV wireless grows steadily 2024-2030 de luxury option para common; power beaming + dynamic road charging longer-term com hurdles técnicos+econômicos. Visão de Tesla substantially realizada em small+medium scale.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Physics of Music`,
+      sub: `Harmonics, resonance, standing waves in instruments, psychoacoustics of consonance and dissonance`,
+      paragraphs: [
+        `Musical acoustics applies wave physics to sound production and perception. Every musical note is a fundamental frequency f₁ plus harmonics f_n = n·f₁ — the mix of harmonic amplitudes creates timbre, distinguishing a violin from a trumpet playing the same note. Standing waves in strings: fₙ = n·v/(2L) where v = √(T/μ), T is tension and μ is linear density. In pipes: open pipe fₙ = n·v/(2L), closed pipe fₙ = n·v/(4L) (odd harmonics only, giving the clarinet its hollow tone). Resonance amplifies specific frequencies — a guitar body resonates to enhance string vibrations.`,
+        `Consonance and dissonance have physical roots: Pythagoras discovered that pleasing intervals correspond to simple frequency ratios — octave (2:1), perfect fifth (3:2), fourth (4:3). The equal temperament system divides the octave into 12 equal semitones with ratio 2^(1/12) ≈ 1.05946, a compromise enabling key changes at the cost of slightly impure intervals. Beats occur when two close frequencies interfere: f_beat = |f₁ − f₂| — piano tuners use this. The Helmholtz resonator selectively amplifies specific frequencies: f = (v/2π)√(A/(V·L)), used in acoustic treatment and musical instruments (acoustic guitar body). Fletcher-Munson curves show human hearing sensitivity varies with frequency — we hear 1-5 kHz best at low volumes. Applications include concert hall design (reverberation time T₆₀ = 0.161·V/A, Sabine equation), digital audio (sampling at ≥ 2f_max per Nyquist theorem), and electronic synthesis (additive, subtractive, FM synthesis).`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Electromagnetic Waves`,
+      sub: `Radio, microwave, IR, visible, UV, X-ray, gamma spectrum`,
+      paragraphs: [
+        `James Clerk Maxwell (1865) unified electricity and magnetism in four equations and predicted electromagnetic waves traveling at c = 1/√(μ₀ε₀) = 2.998×10⁸ m/s — matching the measured speed of light, revealing that light IS an electromagnetic wave. Heinrich Hertz (1887) experimentally confirmed this by generating and detecting radio waves. The EM spectrum spans >20 orders of magnitude in wavelength: radio (>1mm, AM/FM/WiFi/5G), microwave (1mm-1m, radar/ovens/CMB), infrared (700nm-1mm, heat/thermal imaging), visible (400-700nm), ultraviolet (10-400nm, sunburn/sterilization), X-ray (0.01-10nm, medical imaging/crystallography), gamma (<0.01nm, nuclear/cosmic).`,
+        `EM waves are transverse: E and B oscillate perpendicular to each other and to propagation direction, with E/B = c always. Energy: intensity I = ½ε₀cE₀² = Poynting vector magnitude S = E×B/μ₀. Sunlight intensity at Earth: ~1361 W/m². Radiation pressure P = I/c (absorbed) or 2I/c (reflected) — solar sails use this for propulsion (~9 μN/m² at 1 AU). Photon energy E = hf = hc/λ: radio photons ~10⁻²⁵ J, visible ~10⁻¹⁹ J, gamma ~10⁻¹¹ J. Polarization: linear (E oscillates in one plane), circular (E rotates), elliptical. Malus' law I = I₀cos²θ governs polarizer transmission. Antenna theory: a half-wave dipole (L = λ/2) radiates most efficiently; gain measured in dBi. Modern applications: fiber optics (total internal reflection at 1.3/1.55 μm), radar (range R ∝ P^(1/4)), MRI (radio pulse excites nuclear magnetic moments), and gravitational wave detectors (laser interferometry measuring ΔL ~10⁻¹⁸ m).`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Simple Harmonic Motion`,
+      sub: `Pendulum, springs, resonance`,
+      paragraphs: [
+        `Simple harmonic motion (SHM) occurs when a restoring force is proportional to displacement: F = −kx (Hooke's law). The resulting motion is sinusoidal: x(t) = A·cos(ωt + φ) where A is amplitude, ω = √(k/m) = 2πf is angular frequency, and φ is phase. The period T = 2π√(m/k) is independent of amplitude — the defining feature of SHM. For a simple pendulum (small angles): T = 2π√(L/g), with g = 9.81 m/s², a 1m pendulum swings with T = 2.006 s — Galileo noticed this circa 1602, and Huygens built the first pendulum clock in 1656.`,
+        `Energy oscillates between kinetic and potential: E = ½kA² = ½kx² + ½mv² (constant, no energy loss in ideal SHM). At x=0: all KE, max velocity v_max = Aω. At x=±A: all PE, zero velocity. Damped SHM adds drag: x(t) = Ae^(−γt)cos(ω't) where γ = b/(2m) and ω' = √(ω₀²−γ²). Underdamped (γ<ω₀): oscillates with decaying amplitude. Critically damped (γ=ω₀): fastest return to equilibrium without oscillation — car shock absorbers. Overdamped (γ>ω₀): slow exponential return. Driven/forced SHM with driving frequency ω_d: amplitude peaks at resonance when ω_d = ω₀ — the Tacoma Narrows Bridge collapsed (1940) from wind-driven resonance. Quality factor Q = ω₀/(2γ): quartz crystals Q~10⁵ (sharp resonance for watches), acoustic guitar Q~10² (broader resonance for rich sound). SHM is ubiquitous: molecular vibrations (IR spectroscopy), LC circuits (V = V₀cos(t/√(LC))), and quantum harmonic oscillator (Eₙ = (n+½)ℏω).`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Wireless Power Transfer`,
+      sub: `Inductive, resonant, far-field`,
+      paragraphs: [
+        `Wireless power transfer moves electrical energy between systems without conductive contact. Three regimes: (1) Near-field non-resonant inductive (Qi standard) at <10 cm distances; (2) Near-field resonant magnetic coupling (NF-MR) at 1-30 cm with higher efficiency; (3) Far-field via radiative beams (microwave, laser) at meters to km. Nikola Tesla's Wardenclyffe (1901-1917) attempted Earth-resonance wireless transmission — unfinished, but the modern field traces lineage and inspiration.`,
+        `Qi standard (Wireless Power Consortium 2008): dominant phone-charging standard. Operates 87-205 kHz (Qi v2 BPP); 5-15 W typical; coil-to-coil distance <8 mm; efficiency 70-85%. Qi v2.0 (2023) integrates Apple MagSafe magnetics, raises to 15 W universal. Adopted by 9000+ products. AirFuel Resonant (defunct 2019, A4WP/PMA merger) tried 6.78 MHz longer-range — failed commercially against Qi but technology lives in industrial WPT.`,
+        `Resonant magnetic coupling (Soljacic, MIT 2007 "WiTricity"): two LC resonators tuned to same frequency exchange energy via coupled magnetic fields. Efficiency η = (k·Q)²/(1+(k·Q)²) where k = mutual coupling, Q = quality factor — large Q (200-1000) makes 1-50 cm transfer practical. WiTricity Halo for EV charging at 11 kW, 90%+ efficiency, 10-25 cm air gap. SAE J2954 (2020, J2954/2 2022) standardizes EV wireless charging at 3.7/7.7/11/22 kW, 85 kHz. Deployed: BMW 530e (2018), Hyundai Genesis GV60 (2023), public bus charging in Mannheim, Milan, Madrid (200 kW dynamic). Korea Electric Vehicle Technology (KAIST OLEV) dynamic charging via in-road coils, deployed in Gumi 2013-2019.`,
+        `Industrial WPT: rotating machinery (slip-ring replacement, 100-1000 W); medical implants — cochlear implants, LVADs (Abbott HeartMate 3 percutaneous lead but wireless under development), retinal implants; AGV/robotics charging (Daifuku, MURATA). Industrial inductive heating overlaps WPT physics — 1-30 kHz, 100s kW efficient power coupling.`,
+        `Far-field: microwave WPT demonstrated by William Brown (Raytheon 1964 — helicopter powered by 2.45 GHz beam, sustained 10 h flight 18 m altitude). JAXA + Kyoto U tested 1.8 kW over 55 m 2015. Space-based solar power (SBSP) proposed: GW-scale satellites in GEO beaming 2.45 or 5.8 GHz to ground rectennas; revived 2023 with Caltech SSPD-1 (2023) first in-space WPT demo, JAXA OHISAMA (planned 2025) SBSP demo, ESA SOLARIS program. Laser WPT: PowerLight + DARPA POWER program 2023-2024 demonstrated kW-class over 325 m. Safety: power densities limited to FCC/ICNIRP human exposure limits (10 W/m² microwave, eye-safe laser); near-field has different limits per IEEE C95.1.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Wardenclyffe Tower`,
+      sub: `Global wireless transmission, ionosphere`,
+      paragraphs: [
+        `Wardenclyffe Tower (1901-1905) was Tesla's most ambitious project — intended as the first station of a global wireless communication and power transmission system. Located in Shoreham, Long Island, NY, designed by architect Stanford White. The tower stood 57 meters (187 feet) tall with a distinctive 20-meter (68-foot) copper-clad dome, supported by a wooden frame structure. Below ground: a network of iron pipes and tunnels extending 36 meters deep, designed to "grip the Earth" and establish electrical connection with the ground.`,
+        `Funding and downfall: J.P. Morgan invested $150,000 (equivalent to ~$5M today) for what he understood as a wireless TELEGRAPHY station (competing with Marconi). When Tesla revealed his true vision — wireless POWER transmission to the world — Morgan reportedly replied: "If anyone can draw on the power, where do we put the meter?" Morgan refused additional funding. Meanwhile, Marconi transmitted the letter "S" across the Atlantic (1901) using much simpler technology → investors lost interest in Tesla's grandiose approach. Tesla desperately sought other investors (Astor, Ryan, others) — all declined. 1905: operations ceased. 1915: Tesla transferred the Wardenclyffe deed to pay $20,000 hotel debt at the Waldorf-Astoria. 1917: tower dynamited for scrap metal. Rescue (2013): crowdfunding campaign led by The Oatmeal's Matthew Inman raised $1.37 million from 33,000+ donors to purchase the Wardenclyffe site → preserved as future Tesla Science Center and museum. Was it feasible? The communication aspect was technically sound (ELF radio works via Earth-ionosphere cavity). The power transmission aspect remains debated — physically possible but commercially impractical due to enormous efficiency losses over distance.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Quantum Battery Concept`,
+      sub: `Charge Speedup`,
+      paragraphs: [],
+      theses: [
+        `quantum-computing.`,
+      ],
+    },
+    {
+      title: `Acoustics Engineering`,
+      sub: `Room acoustics, impedance matching, resonance, noise control`,
+      paragraphs: [
+        `Acoustics engineering designs spaces and systems for optimal sound. Room acoustics: the Sabine equation T₆₀ = 0.161V/A (Wallace Sabine, 1898) gives reverberation time (time for sound to decay 60 dB) — V = room volume (m³), A = total absorption (m² Sabine). Optimal T₆₀: speech ~0.5-0.8s, chamber music ~1.5s, orchestra ~1.8-2.2s, organ ~3-4s. Concert hall design: the shoe-box shape (Boston Symphony Hall, Vienna Musikverein) provides strong lateral reflections that enhance "envelopment" — the feeling of being immersed in sound. NRC (Noise Reduction Coefficient): average absorption at 250-2000 Hz (carpet ~0.35, acoustic tile ~0.85, glass ~0.05).`,
+        `Noise control: transmission loss TL = 10·log₁₀(1/τ) dB where τ = transmitted/incident power. Mass law TL ≈ 20·log₁₀(mf) − 47 dB (m = surface mass kg/m², f = frequency Hz): doubling mass OR frequency adds ~6 dB. STC (Sound Transmission Class): single-number rating — standard wall STC ~33, double stud STC ~55, recording studio ~60+. Active noise cancellation (ANC): microphone detects noise → DSP generates anti-phase signal → destructive interference reduces noise by 20-30 dB (effective below ~1 kHz — headphones, car cabins, HVAC ducts). Acoustic metamaterials: subwavelength structures with negative effective density or bulk modulus — enable sound focusing, cloaking, and sub-diffraction imaging. Ultrasound (1-20 MHz): medical imaging resolution ~λ/2 (at 5 MHz in tissue: λ ≈ 0.3 mm → 0.15 mm resolution), industrial NDT (crack detection in welds), sonar, and ultrasonic cleaning (cavitation at ~20-40 kHz). Infrasound (<20 Hz): detected from earthquakes, volcanoes, nuclear tests (CTBTO monitoring network), and wind turbines (controversial health effects).`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Wireless Power Transfer`,
+      sub: `Inductive + Resonant`,
+      paragraphs: [],
+      theses: [
+        `EV-dynamic-charge.`,
+        `magnetic-resonance.`,
+      ],
+    },
+  ],
+  sunstone: [
+    {
+      title: `CMB Polarization`,
+      sub: `E + B Modes`,
+      paragraphs: [],
+      theses: [
+        `Planck 2018 — final ESA results, temperature + E-mode polarization, scalar tilt n_s=0.9649±0.0042, six parameter ΛCDM fits, no compelling extension.`,
+        `SPT-3G South Pole + ACT Atacama — high-res ground-based, kSZ + lensing reconstruction + Compton-y maps, complementary to Planck large scales.`,
+        `BICEP/Keck Series — Antarctica B-mode dedicated, BK18 tightest constraint r<0.036 (PRL 2021), Stage 4 BICEP Array + Simons Observatory next.`,
+        `E-modes vs B-modes — E from density perturbations (scalar), B from gravitational waves (tensor) primordial + lensing of E secondary.`,
+        `LiteBIRD JAXA 2032 + CMB-S4 — dedicated primordial B-mode missions, target r ~ 10^-3, search for inflationary signal at large angular scales.`,
+      ],
+    },
+    {
+      title: `Vacuum Birefringence`,
+      sub: `Strong-Field QED`,
+      paragraphs: [],
+      theses: [
+        `Heisenberg-Euler.`,
+      ],
+    },
+    {
+      title: `Vacuum Birefringence`,
+      sub: `Empty Space Polarizes`,
+      paragraphs: [],
+      theses: [
+        `how-it-is-explained noted.`,
+      ],
+    },
+    {
+      title: `Magneto-Optical Kerr Effect`,
+      sub: `Surface Magnetism`,
+      paragraphs: [],
+      theses: [
+        `polarization-rotation.`,
+        `hysteresis-loop.`,
+        `spintronics 2026.`,
+      ],
+    },
+    {
+      title: `IXPE — X-ray polarimetry`,
+      sub: `NASA-ASI 2021 / 1st X-ray polarimeter 40yr / Crab Nebula / accretion / AGN jets`,
+      paragraphs: [
+        `IXPE (Imaging X-ray Polarimetry Explorer) — NASA + ASI (Italian Space Agency) Small Explorer mission, launched December 9, 2021 on SpaceX Falcon 9; operational since early 2022. First X-ray polarimeter in space since OSO-8 (1975-1978) — 43-year gap in this observational mode of astronomy until IXPE revival. Polarization measurements provide unique window into geometry + magnetic fields + scattering processes in extreme astrophysical environments that intensity alone cannot reveal.`,
+        `Technology: three identical X-ray telescopes with grazing-incidence optics (Wolter Type 1 mirrors) + gas pixel detectors (GPDs) at focal plane — GPDs detect photoelectrons via Penning effect in dimethyl ether gas, tracks electron emission direction reveals incoming X-ray polarization angle. Energy range 2-8 keV; angular resolution ~30 arcsec; effective area ~600 cm². Spacecraft + telescope are joint Ball Aerospace + ASI INAF; instrument GPDs developed Italian INAF labs (Costa et al). Total mission cost ~$200M (Explorer class).`,
+        `Key discoveries 2022-2024: 1. Crab Nebula + Pulsar (first published result 2022) — measured polarization Crab pulsar wind nebula; revealed magnetic field structure consistent with prior models but with refined orientation; pulsar itself shows phase-dependent polarization. 2. Black hole accretion (Cygnus X-1, Cygnus X-3, GX 339-4, Swift J1727) — measured polarization from accretion disks around stellar-mass black holes; surprising result Cyg X-1 (2022 Nature) high polarization (~4%) consistent with horizontally-extended accretion flow geometry — informs disk-corona physics. 3. Accreting neutron stars (Her X-1, Cen X-3, others) — first polarimetric studies; magnetic field geometry constraints. 4. Magnetar 4U 0142+61 — strong polarization measured; magnetic field structure revealed. 5. AGN + supermassive black holes — quasar jets (Mrk 421, Mrk 501 blazars), Seyfert galaxies (NGC 4151) — first X-ray polarization measurements probing jet acceleration + emission mechanisms; constraints synchrotron vs inverse Compton vs hadronic models. 6. Supernova remnants (Cas A, Tycho's SNR, SN 1006) — magnetic field structure in shock acceleration regions; cosmic ray acceleration insights.`,
+        `Scientific impact: polarization adds new dimension to X-ray spectroscopy + imaging + timing; revealed geometric information impossible to extract from intensity alone; 40+ papers published 2022-2024 from IXPE data; revitalized X-ray polarimetry community + enabled new theoretical work. Cross-correlation with: NICER (X-ray timing + spectroscopy, ISS), Chandra (high-resolution X-ray imaging), XMM-Newton (ESA X-ray), NuSTAR (hard X-ray), eROSITA (all-sky soft X-ray survey).`,
+        `Future X-ray polarimetry: XPP (X-ray Polarimetry Probe) NASA Probe-class proposed mission ~$1B class — much more sensitive successor; broader energy range; 2030s if approved. NewAthena (ESA, formerly Athena reformulated 2023 after cost issues) — flagship X-ray observatory ~2037 launch — includes some polarimetric capability. POLIX (India ISRO X-ray polarimeter); eXTP (China) X-ray timing + polarimetry — launch ~2027 — major Chinese X-ray mission with polarimetry. IXPE itself operational through 2025+, extended mission possible. Multimessenger: combine X-ray polarization with gravitational wave events (e.g., neutron star mergers) + neutrinos + EM cross-spectrum — comprehensive picture of compact object physics. IXPE among most productive astronomy missions for cost in recent memory — fortuitous timing + clever instrumentation revival of forgotten observational window.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `CMB polarization — B-mode hunt`,
+      sub: `BICEP Keck SPT POLARBEAR / Planck / Simons Obs LiteBIRD CMB-S4 / inflation r`,
+      paragraphs: [
+        `Cosmic Microwave Background (CMB) — relic radiation from ~380,000 years after Big Bang when universe became transparent (recombination); ~2.725 K blackbody spectrum across sky; tiny anisotropies (~10⁻⁵) encoding initial conditions + cosmological parameters. CMB polarization — small polarization signals carry additional information beyond intensity; decomposed into E-mode + B-mode; B-modes from primordial gravitational waves would confirm cosmic inflation. Among most ambitious physics experiments + most consequential cosmological observations.`,
+        `CMB observations history:Penzias + Wilson 1965 Nobel — first detection of CMB (Bell Labs accidentally);COBE 1989-1993 (Smoot + Mather Nobel 2006) — confirmed blackbody spectrum + first anisotropy detection;WMAP 2001-2010 (Bennett + Spergel + others) — full-sky CMB temperature map; precision cosmology;Planck 2009-2013 (ESA) — most precise CMB temperature map; full-sky polarization E-modes; remains gold standard for many parameters;Ground-based + balloon experiments increasingly take over for high-resolution + polarization-focused observations.`,
+        `E-mode vs B-mode:E-modes (curl-free polarization pattern) — primarily from density perturbations at recombination (same physics as temperature anisotropies); detected by Planck + others; well-measured;B-modes (curl-mode polarization) — two sources:• Primordial gravitational waves from inflation — direct evidence for cosmic inflation; would measure tensor-to-scalar ratio r — fundamental inflationary parameter; smoking gun for inflation;• Gravitational lensing of E-modes by intervening matter — converts some E-modes to B-modes; "lensing B-modes" detected by SPT + POLARBEAR + Planck 2014-2015;Primordial B-modes — at large angular scales (l~80-90); amplitude scaled by r (currently r < 0.036 95% CL from BICEP/Keck + Planck combined);Smaller r values → harder to detect; cleaner foregrounds + larger experiments required.`,
+        `BICEP/Keck saga:BICEP1, BICEP2, Keck Array (Caltech + Stanford + Harvard + JPL) — South Pole CMB experiments specifically targeting B-modes at degree scales (r);BICEP2 March 2014 announcement — claimed detection of primordial B-modes implying r~0.2 — would have been revolutionary direct evidence of inflation;2014-2015 reanalysis with Planck — showed signal contaminated by galactic dust foreground; BICEP2 detection retracted; major setback + scientific embarrassment;BICEP/Keck + Planck ongoing collaboration produces improving upper limits on r;BICEP3 + BICEP Array upgrades operating;BICEP Keck 2021 paper — r < 0.036 (95% CL) — among tightest constraints;Lessons — galactic foregrounds (dust, synchrotron) major challenge; multi-frequency observations + foreground subtraction essential.`,
+        `Current + next-generation experiments:South Pole Telescope (SPT-3G) — high-resolution polarization;POLARBEAR + Simons Array (Atacama Chile + Princeton + Berkeley);Atacama Cosmology Telescope (ACT) + Advanced ACT — Atacama;CLASS (Maryland) — large angular scales B-modes;SPIDER + others — balloon-borne experiments;Simons Observatory (SO, Chile, operations 2024-2025) — major next-gen ground experiment; multiple telescope arrays; combined collaboration of Princeton, Berkeley, UCSD, U Pennsylvania, UCSD, KEK, others; target r ~ 0.003;CMB-S4 (US flagship 2030s) — proposed largest CMB experiment; South Pole + Atacama; ~500,000 detectors; target r < 0.001;LiteBIRD (JAXA 2032 launch) — Japanese-led space mission specifically for large-scale B-modes; complementary to ground; bypass foreground; target r < 0.001.`,
+        `Inflation theoretical context:Cosmic inflation (Guth 1981, Linde, Albrecht-Steinhardt) — rapid exponential expansion of universe ~10⁻³⁶-10⁻³² seconds after Big Bang; explains:• Flatness problem — why universe is geometrically flat;• Horizon problem — why CMB temperature uniform across regions never in causal contact;• Monopole problem — why no magnetic monopoles;• Origin of structure — quantum fluctuations stretched to cosmic scales → seeds for galaxies;Predictions: flat universe (confirmed), nearly scale-invariant + slightly red-tilted primordial spectrum (n_s ~0.965, confirmed Planck), small non-Gaussianity (largely confirmed), Gaussian fluctuations (confirmed), gravitational wave background with characteristic spectrum — yet to be detected;Inflaton field — hypothetical scalar field driving inflation; many models (single-field slow-roll, multi-field, etc.); r value distinguishes models:• r ~ 0.01 achievable by single-field models predicting characteristic energy scale ~10¹⁶ GeV (GUT scale);• r ~ 0.001-0.01 range targeted by next-gen experiments;• r < 0.001 would rule out many models; favor low-scale inflation alternatives.`,
+        `Outlook: 2024-2030: Simons Observatory operational; SPT-3G + ACT continue;2030+: CMB-S4 + LiteBIRD operational; potential B-mode discovery or strong upper limits;If B-modes detected: profound confirmation of inflation + measurement of inflation energy scale; possible discovery of gravitational wave background;If not detected: strong constraints on inflation models; alternatives (ekpyrotic, cyclic) gain prominence;Foreground modeling + delensing (subtracting lensing B-modes) major technical challenges;21cm cosmology (HERA, SKA-Low) complementary probe of early universe;Direct gravitational wave detection (LISA 2035+) eventually probes primordial GW.Among most consequential pursuits in physics; B-mode detection (or strong limits) generation-defining result.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Nonlinear Optics`,
+      sub: `Second harmonic generation, optical parametric oscillation, Kerr effect, solitons in fiber`,
+      paragraphs: [
+        `Nonlinear optics studies phenomena where light modifies the optical properties of a medium. At high intensities (lasers), the polarization response becomes nonlinear: P = ε₀(χ⁽¹⁾E + χ⁽²⁾E² + χ⁽³⁾E³ + ...). Second harmonic generation (SHG) — the χ⁽²⁾ term — doubles the frequency of light: a 1064 nm Nd:YAG laser produces green 532 nm. Discovered by Franken (1961) just one year after the first laser, SHG requires non-centrosymmetric crystals (KDP, BBO, LiNbO₃) and phase matching: n(ω) = n(2ω).`,
+        `Optical parametric oscillation (OPO) splits one photon into two (signal + idler) conserving energy (ω_p = ω_s + ω_i) and momentum — tunable laser sources across UV to mid-IR. The Kerr effect (χ⁽³⁾): refractive index depends on intensity n = n₀ + n₂I, causing self-focusing (intense beams collapse), self-phase modulation (spectral broadening), and optical solitons (pulses that propagate without dispersing in fiber — balance between Kerr nonlinearity and group velocity dispersion). Four-wave mixing (FWM) generates new frequencies from three input waves. Stimulated Raman scattering shifts frequency by molecular vibration energy. Applications: frequency combs (Nobel 2005, optical rulers measuring frequency with 10⁻¹⁸ precision), supercontinuum generation (white-light laser from photonic crystal fiber), optical switching (ultrafast all-optical logic), and entangled photon generation (SPDC for quantum information).`,
+      ],
+      theses: [],
+    },
+  ],
+  chaos: [
+    {
+      title: `Hydrodynamics 2026`,
+      sub: `Turbulence + Instability`,
+      paragraphs: [],
+      theses: [
+        `Navier-Stokes + Reynolds-number regime.`,
+        `Kolmogorov 1941 turbulence cascade.`,
+        `Rayleigh-Taylor + Kelvin-Helmholtz.`,
+        `Active + bacterial turbulence 2026.`,
+        `ML closure + super-resolution 2026.`,
+      ],
+    },
+    {
+      title: `Turbulence Closure Problem`,
+      sub: `Navier-Stokes`,
+      paragraphs: [],
+      theses: [
+        `no-general-theory.`,
+        `Kolmogorov-incomplete.`,
+        `intermittency-puzzle.`,
+        `ML-closure attempt.`,
+      ],
+    },
+    {
+      title: `Lorenz Attractor`,
+      sub: `Chaos Discovery`,
+      paragraphs: [],
+      theses: [
+        `butterfly-effect.`,
+        `deterministic-chaos.`,
+      ],
+    },
+    {
+      title: `Lorenz Attractor Demo`,
+      sub: `Deterministic Chaos`,
+      paragraphs: [],
+      theses: [
+        `setup + result studied.`,
+        `significance + legacy traced.`,
+      ],
+    },
+    {
+      title: `Chaos Theory`,
+      sub: `Predictability Limits`,
+      paragraphs: [],
+      theses: [
+        `cultural-impact.`,
+        `lasting-influence noted.`,
+      ],
+    },
+    {
+      title: `Chaos Theory & Nonlinear Dynamics`,
+      sub: `Butterfly effect, Lorenz attractor, bifurcation, fractals, Lyapunov`,
+      paragraphs: [
+        `Chaos theory studies deterministic systems that exhibit unpredictable behavior due to extreme sensitivity to initial conditions. Edward Lorenz (1963): discovered chaos while modeling weather — tiny rounding error (0.506127 → 0.506) produced completely different forecasts → "butterfly effect" (a butterfly flapping its wings in Brazil could cause a tornado in Texas). Lorenz attractor: ẋ=σ(y−x), ẏ=x(ρ−z)−y, ż=xy−βz (σ=10, ρ=28, β=8/3) → strange attractor with fractal structure.`,
+        `Key concepts: Lyapunov exponent λ: measures rate of divergence of nearby trajectories — λ>0 → chaos (distance grows as e^{λt}); for Lorenz: λ₁≈0.9056 → prediction horizon ~(1/λ)ln(Δ₀/Δ) ≈ 2 weeks for weather. Strange attractors: bounded chaotic trajectories with fractal geometry — Lorenz attractor dimension ~2.06 (not integer!). Fractals (Mandelbrot, 1975): self-similar structures with non-integer dimension. Mandelbrot set: z_{n+1}=z_n²+c in complex plane → infinitely detailed boundary. Fractal dimension: coastline of Britain ~1.25 (longer with smaller rulers: L∝ε^{1−D}). Logistic map: x_{n+1}=rx_n(1−x_n) — simplest chaotic system: r<3 → stable; 3<r<3.57 → period-doubling cascade (1→2→4→8→...); r>3.57 → chaos; Feigenbaum constant δ=4.669...: universal ratio of period-doubling intervals (same for ALL unimodal maps — universality!). Applications: weather prediction limits (~2 weeks), climate modeling, turbulence, population dynamics, heart arrhythmias (fibrillation = cardiac chaos), cryptography (chaotic maps for pseudo-random generation), and control of chaos (small perturbations stabilize unstable periodic orbits → OGY method). Edge of chaos: complex systems (life, computation, neural networks) may operate optimally at the boundary between order and chaos.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Chaos Theory Modern`,
+      sub: `Strange Attractors`,
+      paragraphs: [],
+      theses: [
+        `Lorenz 1963 — atmospheric convection model, butterfly effect, strange attractor first computed, deterministic chaos in 3 ODEs.`,
+        `Mandelbrot 1980 — fractal set boundary of Julia sets connected, infinite detail, complex dynamics, self-similarity not exact.`,
+        `Feigenbaum 1978 + universality — period-doubling cascade constants δ=4.669... + α=2.503..., universal across dissipative dynamical systems.`,
+        `Ott-Grebogi-Yorke 1990 — OGY method controls chaos via small perturbations on Poincaré section, applied cardiac arrhythmia + lasers.`,
+        `Reservoir computing — chaos used for ML, echo state networks Jaeger 2001 + liquid state machine, predict Lorenz + Kuramoto-Sivashinsky from data.`,
+      ],
+    },
+    {
+      title: `Butterfly Effect`,
+      sub: `Sensitive Dependence`,
+      paragraphs: [],
+      theses: [
+        `significance + context traced.`,
+      ],
+    },
+    {
+      title: `Chaos Theory`,
+      sub: `Lorenz-Mandelbrot`,
+      paragraphs: [],
+      theses: [
+        `why-it-was-pivotal noted.`,
+      ],
+    },
+    {
+      title: `Navier-Stokes & Turbulence`,
+      sub: `Viscous flow, Reynolds number, turbulence, vorticity`,
+      paragraphs: [
+        `The Navier-Stokes equations describe the motion of viscous fluids — governing everything from blood flow to weather to ocean currents. For incompressible Newtonian fluid: ρ(∂v/∂t + v·∇v) = −∇p + μ∇²v + ρg (momentum) + ∇·v = 0 (continuity/incompressibility). Left side: inertia (local acceleration + convective acceleration). Right side: pressure gradient + viscous diffusion + body forces. The nonlinear convective term v·∇v is what makes these equations extraordinarily difficult.`,
+        `Millennium Prize Problem ($1M): prove whether smooth solutions always exist for 3D Navier-Stokes given smooth initial conditions, or demonstrate finite-time blowup (singularity formation). Despite 180+ years since formulation, this remains UNSOLVED — we don't even know if the equations we use to design aircraft are mathematically well-posed! Reynolds number Re = ρvL/μ: ratio of inertial to viscous forces. Re < ~2300 (pipe): laminar (smooth, predictable). Re > ~4000: turbulent (chaotic, unpredictable at small scales — Richardson cascade: large eddies → smaller eddies → ... → dissipation at Kolmogorov scale η = (ν³/ε)^{1/4} ~0.1 mm in atmosphere). Turbulence is the last great unsolved problem in classical physics — Heisenberg reportedly said "When I meet God, I am going to ask him two questions: Why relativity? And why turbulence? I really believe he will have an answer for the first." Computational Fluid Dynamics (CFD): discretize NS on mesh → solve numerically. DNS (Direct Numerical Simulation): resolve ALL scales → Re³ grid points needed → only feasible for Re ~10⁴. RANS (Reynolds-Averaged): model turbulence (k-ε, k-ω) → industrial standard. LES (Large Eddy Simulation): resolve large eddies, model small → intermediate cost/accuracy.`,
+      ],
+      theses: [],
+    },
+  ],
+  dna: [
+    {
+      title: `Epigenome editing — dCas9 fusion`,
+      sub: `dCas9-KRAB / DNMT3A / TET1 / methylation / heritable silencing`,
+      paragraphs: [
+        `Epigenome editing modifica padrões epigenéticos (DNA methylation, histone modifications) sem alterar sequência DNA — silenciamento/ativação reversíveis ou durables de genes. Plataforma central: dCas9 (catalytically dead Cas9 sem cleavage activity) fused to epigenetic modifier domains, guided to target loci via sgRNA. Tipos: CRISPRi (inhibition) — dCas9-KRAB (Krüppel-associated box repressor recruiting silencing complex KAP1/SETDB1/HP1 → H3K9me3 heterochromatin) — strong transient repression mas reversível upon dCas9-KRAB removal; CRISPRa (activation) — dCas9-VP64 ou dCas9-VPR (VP64+p65+Rta) ou dCas9-SAM (Synergistic Activation Mediator) — recruit transcription machinery, target gene activated 10-1000x; CRISPRoff (Nuñez et al. 2021, Cell) — dCas9-KRAB + DNMT3A/3L methyltransferase deposits DNA methylation at promoter → durable heritable silencing through cell divisions even after dCas9 removed (epigenetic memory).`,
+        `Variants reverse: CRISPRon — dCas9 + TET1 (5mC dioxygenase) demethylates target — restores expression at silenced loci. Histone-targeting: dCas9-p300 (histone acetyltransferase H3K27ac), dCas9-LSD1 (demethylase H3K4 — silencing enhancers), dCas9-EZH2 (H3K27me3 PRC2). Combined editors: simultaneous DNA methylation + H3K9 methylation for maximally durable silencing.`,
+        `Therapeutic potential: Epigenetic silencing of pathogenic gene without permanent DNA edit — major safety advantage (reversible if needed, no off-target genomic damage). Sangamo Therapeutics (Tupper Lake, CA) — uses zinc finger protein (ZFP) instead of dCas9 but same principle, ST-101 fronto-temporal dementia FTD-MAPT (tau protein silencing in brain, Phase Ib/II 2024); ST-501 (Lewy body, α-synuclein). Tune Therapeutics (David Liu spinoff Aug 2021) — HBV functional cure via CRISPR-based epigenetic silencing covalent closed circular DNA (cccDNA) reservoir of HBV — Phase I trial expected; pipeline also chronic hepatitis B + autoimmune. Chroma Medicine (founded 2021) — epigenetic editing platform with $135M Series A, programs hepatic and ophthalmic; merged with Nvelop Therapeutics 2024 → forming nChroma Bio. Epic Bio, Omega Therapeutics (now nMega Therapeutics?), Saliogen Therapeutics. Heritable silencing mechanism CRISPRoff: ~3 components (dCas9-KRAB + dCas9-DNMT3A or DNMT3L) transiently expressed; methylation deposited at CpG islands of promoter; once removed, methylation maintained by host DNMT1 (maintenance methyltransferase) through cell divisions — silencing persists indefinitely (lifelong potential).`,
+        `Use cases beyond therapy: functional genomics screens (CRISPRi/a libraries across genome identifying gene functions — used widely in research); cell fate engineering (activating pluripotency factors via CRISPRa for reprogramming, see Yamanaka entry); synthetic biology (programmable circuits with epigenetic memory states). Challenges: durability assessment (CRISPRoff silencing lasted ~hundreds of divisions in cell culture; in vivo durability over years/decades being assessed); off-target methylation; tissue-specific deposition control; delivery (large dCas9 fusion proteins challenging for AAV). Reversibility is feature for therapeutic safety — CRISPRon demethylating can rescue silenced gene if needed. vs DNA editing: prefer epigenetic when permanent DNA change unnecessary (silencing dominant-negative allele in autosomal dominant disease, or modulating expression level).`,
+      ],
+      theses: [],
+    },
+    {
+      title: `DNA Data Storage`,
+      sub: `Molecular Archive`,
+      paragraphs: [],
+      theses: [
+        `synthesis + read.`,
+      ],
+    },
+    {
+      title: `Oligonucleotide Chemistry`,
+      sub: `ASO/siRNA`,
+      paragraphs: [],
+      theses: [
+        `Phosphoramidite solid-synthesis.`,
+        `PS + 2'-MOE + LNA modify.`,
+        `GalNAc-conjugate delivery.`,
+        `Manufacturing scale + cost.`,
+        `Chirally-pure stereodefined.`,
+      ],
+    },
+    {
+      title: `CRISPR Chemistry`,
+      sub: `Cas Mechanisms`,
+      paragraphs: [],
+      theses: [
+        `Cas9 RuvC + HNH domains — two nuclease domains cut sense/antisense strands, generate blunt-end double-strand break, sgRNA guides target recognition via 20nt seed.`,
+        `Cas12 (Cpf1) — Zhang Lab 2015, single RuvC domain, staggered overhangs, T-rich PAM (TTTV), no tracrRNA needed, smaller protein for delivery.`,
+        `Cas13 RNA-targeting — Zhang Lab 2016, HEPN ribonuclease domains, RNA editing via REPAIR/RESCUE, COVID detection via SHERLOCK diagnostic.`,
+        `PAM recognition — protospacer adjacent motif, NGG for SpCas9, AsCas12 TTTV, engineered variants SpCas9-NG/SpRY relax PAM requirements (Liu 2020).`,
+        `Anti-CRISPR proteins — phage-encoded AcrIIA4 + AcrIIC3 etc, inhibit Cas9, used as kill switches for safety, structural biology by Davidson + Maxwell.`,
+      ],
+    },
+    {
+      title: `DNA Polymerase Fidelity`,
+      sub: `Proofreading`,
+      paragraphs: [],
+      theses: [
+        `Kornberg legacy.`,
+        `induced-fit selectivity.`,
+        `3'-5' exonuclease.`,
+        `translesion-bypass.`,
+        `engineered-variant 2026.`,
+      ],
+    },
+    {
+      title: `CRISPR-Cas Systems`,
+      sub: `Gene editing: Cas9, Cas12, Cas13, base/prime editors`,
+      paragraphs: [
+        `Bacterial adaptive immunity repurposed as a precision gene editor. Jennifer Doudna and Emmanuelle Charpentier (Nobel Chemistry 2020) showed Cas9 + guide RNA cuts DNA at any chosen sequence.`,
+        `Mechanism: A 20-nt guide RNA (sgRNA) directs Cas9 to a complementary genomic target adjacent to a PAM (5'-NGG-3' for SpCas9). Cas9 nuclease creates a double-strand break (DSB). Cell repair via NHEJ (error-prone, knockout) or HDR (template-driven, knock-in).`,
+        `Variants: Cas12a (Cpf1) — staggered cuts, TTTV PAM, smaller. Cas13 — targets RNA, used for SHERLOCK diagnostics. dCas9 (dead) — fused to activators (CRISPRa), repressors (CRISPRi), or epigenetic modifiers. Base editors (Liu lab) — cytidine (CBE) or adenine (ABE) deaminase fused to nickase, C→T or A→G without DSB. Prime editors — reverse transcriptase + nickase + pegRNA, install any small edit with template.`,
+        `Therapeutics: Casgevy (exa-cel, 2023) — first FDA-approved CRISPR therapy, treats sickle cell and β-thalassemia by reactivating fetal hemoglobin. NTLA-2001 — in vivo LNP-delivered CRISPR for transthyretin amyloidosis. Trials for cancer (CAR-T enhancement), HIV, blindness (LCA10).`,
+        `Off-target effects: Mismatches tolerated; tools like CIRCLE-seq, GUIDE-seq map them. High-fidelity Cas9 variants (eSpCas9, SpCas9-HF1) reduce off-targets. Anti-CRISPR proteins (Acr) provide off-switch.`,
+        `Ethical: He Jiankui (2018) edited human embryos (CCR5) → global moratorium on germline editing.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `DNA Data Storage`,
+      sub: `Synthetic Bio Memory`,
+      paragraphs: [],
+      theses: [
+        `Church Harvard 2012 — encoded book in DNA, 5.27 Mb at $0.30/Mb synthesis cost, demonstrated viability proof-of-concept.`,
+        `Catalog Technologies + DNA Script + Twist + Ansa — commercial DNA synthesis, enzymatic TdT-based replacing phosphoramidite chemistry.`,
+        `Density — theoretical 215 PB/g DNA vs SSD ~10 TB/g, 100,000× density advantage, 1000-year half-life vs decades magnetic.`,
+        `IARPA MIST 2020+ — Molecular Information Storage program, end-to-end synthesis + retrieval + computation in DNA, scaling targets.`,
+        `CRISPR-Cas data — Microsoft + UW DNA storage research, retrieval by sequencing nanopore, write/read cycle 2024 benchmarks improving.`,
+      ],
+    },
+    {
+      title: `Reverse Transcriptase Mechanism`,
+      sub: `RNA-to-DNA`,
+      paragraphs: [],
+      theses: [
+        `HIV-RT + telomerase.`,
+        `fidelity + processivity.`,
+        `inhibitor-design.`,
+        `engineering 2026.`,
+      ],
+    },
+    {
+      title: `Helicase Unwinding Motor`,
+      sub: `DNA Translocation`,
+      paragraphs: [],
+      theses: [
+        `ATP-driven duplex-melt.`,
+        `hexameric + SF1/2.`,
+        `single-molecule step.`,
+        `disease + cancer.`,
+      ],
+    },
+    {
+      title: `DNA Data Storage`,
+      sub: `Encode digital data in DNA, density 215 PB/g, longevity, read/write cost`,
+      paragraphs: [
+        `DNA data storage encodes digital information (0s and 1s) as sequences of nucleotides (A, T, C, G — 2 bits per base). Theoretical density: ~455 exabytes per gram — all of the world's data (~120 ZB in 2023) could fit in a few hundred kilograms of DNA. Stability: DNA survives millennia under proper conditions (woolly mammoth genome read after >1 million years in permafrost; seeds in the Svalbard Vault). George Church (Harvard, 2012) encoded a 53,400-word book in DNA; Microsoft/UW (2016) stored 200 MB using 13 million oligonucleotides.`,
+        `Encoding pipeline: binary → nucleotide sequence (avoiding homopolymers >3, balancing GC content ~50%, adding error-correcting codes like Reed-Solomon) → chemical synthesis (phosphoramidite chemistry, ~200 nt max per oligo, error rate ~1/200 — the bottleneck) → store as lyophilized powder or encapsulated in silica beads. Reading: PCR amplify selected fragments (random access via unique primers) → sequence (Illumina, nanopore) → decode. Current costs: writing ~$800/MB (synthesis-dominated), reading ~$0.01/MB (sequencing cheap) — compared to tape storage at ~$0.002/MB. Write cost must drop ~6 orders of magnitude for commercial viability. Emerging solutions: enzymatic synthesis (DNA Script, Ansa Biotechnologies — TdT enzyme adds bases without toxic solvents, potentially 10-100× cheaper), error-correcting codes adapted from telecommunications (fountain codes, LDPC), and random access via PCR with unique address oligos or CRISPR-based retrieval. Timeline: archival DNA storage (write-once, read-rarely) potentially viable by 2030; general-purpose storage unlikely before 2040+. Hybrid systems combining DNA for cold storage with electronic for hot access may emerge first.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `DNA Synthesizer`,
+      sub: `Custom Oligonucleotides`,
+      paragraphs: [],
+      theses: [
+        `transformative-enabler.`,
+        `why-it-was-pivotal noted.`,
+      ],
+    },
+    {
+      title: `Oligonucleotide Synthesis`,
+      sub: `Phosphoramidite + Enzymatic`,
+      paragraphs: [],
+      theses: [
+        `Phosphoramidite chemistry — Caruthers Beaucage 1981, solid-phase 4-step cycle, 99.5% per step, gold standard 200-mer DNA synthesis.`,
+        `Enzymatic DNA — DNA Script + Ansa Biotechnologies + Molecular Assemblies, terminal deoxynucleotidyl transferase TdT, milder + no toxic reagents.`,
+        `Twist Bioscience — silicon-chip synthesis $0.10/base 2024, oligo pools 200-300 mer, gene synthesis 1 day turnaround.`,
+        `Long DNA — Gibson assembly 2009 + golden gate + Twist eBlocks, megabase de novo synthesis JCVI-syn 2010, Sc2.0 chromosomes.`,
+        `Modified bases — locked nucleic acid LNA + 2'-MOE + UNA + GalNAc conjugation, drug-grade oligonucleotides ASO + siRNA stability.`,
+      ],
+    },
+    {
+      title: `CRISPR 2024 — beyond Casgevy`,
+      sub: `Casgevy 2023 / in vivo base editing Verve / prime editing / epigenetic / Tome Bio / Excision`,
+      paragraphs: [
+        `CRISPR-Cas genome editing revolutionized molecular biology + clinical medicine 2012+; Casgevy (exa-cel, Vertex + CRISPR Therapeutics) — first CRISPR-edited therapy FDA + MHRA approved December 2023 for sickle cell disease + transfusion-dependent β-thalassemia. 2024 has seen rapid expansion of CRISPR clinical applications + advanced editing modalities (base editing, prime editing, epigenome editing) + in vivo delivery + expanded targets.`,
+        `Casgevy + ex vivo gene editing:Casgevy — patient hematopoietic stem cells removed, edited ex vivo with CRISPR to disrupt BCL11A erythroid enhancer reactivating fetal hemoglobin (HbF), then reinfused after conditioning chemotherapy;Clinical results: ~28-29/29 (97%+) of patients free of vaso-occlusive crises + transfusion-independent in trials;Costs ~$2.2M list price; very limited rollout 2024 due to complex manufacturing + chemotherapy conditioning;~50 patients treated in commercial setting by Q4 2024;Manufacturing capacity + payer coverage challenges scaling;Real-world experience generally positive but complex;Other ex vivo CRISPR therapies in development for thalassemias, additional hemoglobinopathies, primary immunodeficiencies (SCID), and other rare diseases.`,
+        `In vivo CRISPR — major frontier:Direct administration of CRISPR machinery (vs ex vivo lab manipulation) — could massively expand applications + reduce costs;NTLA-2001 (Intellia + Regeneron) — transthyretin amyloidosis — 2023 Phase I results — IV lipid nanoparticle (LNP) delivering CRISPR-Cas9 + guide RNA targeting TTR gene in liver; ~93-95% reduction in TTR protein; well-tolerated; one-time treatment; Phase III ongoing 2024-2025; first systemic in vivo CRISPR therapy potentially approved 2025-2026;NTLA-2002 (Intellia) — hereditary angioedema — knock out KLKB1 in liver to reduce kallikrein; Phase II/III;Verve Therapeutics — in vivo base editing for cardiovascular disease:• VERVE-101/VERVE-102 (PCSK9 editing) — disable PCSK9 in liver via base editing → permanent LDL cholesterol reduction; "one-and-done" cardiovascular therapy;• Heart-1 trial 2023 — first base editing in humans; transient liver enzyme elevation observed Q4 2023 (one patient) caused trial pause;• 2024 trial restart with revised dosing + Lp(a) target VERVE-201 program;Editas Medicine + Beam Therapeutics — additional in vivo programs.`,
+        `Base editing — precision DNA editing:Base editing (David Liu Harvard/Broad Institute 2016+):• Cytosine Base Editors (CBE) — C·G → T·A;• Adenine Base Editors (ABE) — A·T → G·C;No double-strand break — safer than classic CRISPR-Cas9;~50% of pathogenic point mutations in ClinVar are A↔G or C↔T — base editing targets;Verve PCSK9 + ANGPTL3 + Lp(a) — base editing in vivo;BEAM-101 (Beam) — sickle cell + β-thalassemia — ex vivo base editing alternative to Casgevy;BEAM-201 + BEAM-301 — multiplex editing for CAR-T + other applications;Acuitas Therapeutics + Korro Bio — additional players;Prime Medicine (David Liu) — broader base editing portfolio.`,
+        `Prime editing — versatile precision:Prime editing (Liu 2019) — most versatile editing modality:• Uses nCas9 (nicking Cas9) + reverse transcriptase + pegRNA (prime editing guide RNA);• Can perform any single base substitution + small insertions + deletions;• ~89% of disease variants theoretically addressable;• More complex molecular machinery than CRISPR-Cas9 or base editing;Prime Medicine commercial focus; multiple programs Phase I 2024-2025;Drug discovery applications scale screening of variants.`,
+        `Epigenome editing:Targeted epigenetic modification — change gene expression without editing DNA sequence;dCas9 (catalytically dead Cas9) fused to epigenetic modulators — DNMT3 (methylator), TET1 (demethylator), KRAB (silencer), VP64/p300 (activator);Reversible + theoretically safer than genomic editing;Tune Therapeutics — epigenome editing platform; Phase I starting 2024 hepatitis B program;Chroma Medicine;Epic Bio;Promising for diseases driven by gene expression rather than sequence (some autoimmune, neurological).`,
+        `Delivery + remaining challenges:Lipid nanoparticles (LNPs) — proven mRNA + CRISPR delivery vehicle; liver-selective via apolipoprotein binding; extension to other organs active research (Tessera, Verve modifications, Generation Bio, others);Adeno-Associated Virus (AAV) — gene therapy vectors; persistent expression concerns + immune responses;Cell-specific targeting — major challenge beyond liver;In vivo immunogenicity — pre-existing immunity to Cas9 (Cas9 from S. pyogenes + S. aureus encountered in normal microbiota);Off-target effects — comprehensive analysis essential; base editing + prime editing reduce but don't eliminate;Cost + access — gene therapies remain very expensive; equity concerns;Regulatory pathway maturation — FDA + EMA increasingly experienced.`,
+        `Outlook 2024-2030: NTLA-2001 Intellia ATTR approval likely 2025-2026 first in vivo CRISPR; multiple base editing approvals mid-decade; expanded ex vivo applications beyond hemoglobinopathies; cell-specific delivery beyond liver via novel LNPs + bispecifics; autoimmune + cancer applications; combinatorial therapies; cost reduction via manufacturing improvements; broad access challenges remain. Among most consequential medical therapeutic advances of decade; rapidly maturing field from research to routine clinical practice.`,
+      ],
+      theses: [],
+    },
+  ],
+  antikythera: [
+    {
+      title: `Kepler Orbit Problem`,
+      sub: `Period-Radius`,
+      paragraphs: [],
+      theses: [
+        `setup + method studied.`,
+      ],
+    },
+    {
+      title: `Kepler Conjecture`,
+      sub: `Sphere Packing`,
+      paragraphs: [],
+      theses: [
+        `Kepler conjecture 1611 — densest sphere packing 3D π/√18 ≈ 74%, Hales 1998 + 2014 formal verification proof.`,
+        `Viazovska Fields 2022 — proved E8 lattice optimal 8D + Leech lattice optimal 24D via modular forms breakthrough.`,
+        `Cohn-Elkies linear programming bounds — universal lower bounds, used by Viazovska, foundational technique.`,
+        `Universal optimality — E8 + Leech minimize many energies, foundational result connecting packing + physics.`,
+        `Sphere packing + codes — error-correcting codes via packing, Shannon + Conway-Sloane, deep coding theory connection.`,
+      ],
+    },
+    {
+      title: `Ancient Mathematics`,
+      sub: `Babylonian, Egyptian, Greek, Chinese, Indian, Islamic golden age`,
+      paragraphs: [
+        `Mathematics originated independently in multiple civilizations. Babylonian (~2000 BC): base-60 number system (survives in 60 seconds/minute, 360°/circle); Plimpton 322 tablet: table of Pythagorean triples → understood a²+b²=c² ~1000 years before Pythagoras; could solve quadratic equations. Egyptian (~1650 BC): Rhind Papyrus — area of circle ≈ (8d/9)² → π≈3.16 (1% error); knew algorithm for multiplication by doubling (essentially binary).`,
+        `Greek (~600 BC-300 AD) — the revolution of PROOF: Thales: first mathematical proofs. Pythagoras (~500 BC): discovered irrational numbers (√2 cannot be expressed as p/q — legend says a follower was drowned for revealing this). Euclid (~300 BC): Elements — 13 books, axioms → theorems; the most influential math text ever (2nd most printed book in history after Bible); proved infinitely many primes (elegant proof by contradiction). Archimedes (~250 BC): method of exhaustion (proto-calculus), calculated π to 3.1408-3.1429, volumes of solids of revolution, and the Sand Reckoner (a system to name enormous numbers). Indian (~500-1200 AD): zero as a number (Brahmagupta, 628: rules for zero arithmetic, negative numbers); decimal place-value system (most important mathematical invention — our "Arabic" numerals are actually Indian); Aryabhata (499): sin tables, Earth's rotation; Madhava (~1350): infinite series for π/4 = 1−1/3+1/5−... ("Leibniz formula" 300 years early), power series for sin, cos → proto-calculus. Islamic Golden Age (~800-1400): Al-Khwarizmi (~820): Al-Kitab al-Mukhtasar — systematic algebra (from which "algebra" is named; "algorithm" from his name); preserved and transmitted Greek mathematics to Europe. Chinese: Rod calculus, Nine Chapters on Mathematical Art (~200 BC): Gaussian elimination 2000 years before Gauss; remainder theorem (Chinese Remainder Theorem); negative numbers centuries before India.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `History of Astronomy`,
+      sub: `Stonehenge, Ptolemy, Copernicus, Galileo telescope, Hubble expansion`,
+      paragraphs: [
+        `Astronomy is humanity's oldest science. Babylonians (~1800 BC) tracked planetary positions and eclipses with remarkable accuracy — predicting lunar eclipses to within hours using the Saros cycle (6585.3 days). Ancient Egypt aligned pyramids to Polaris (then Thuban) and based their calendar on Sirius's heliacal rising. Aristotle (~350 BC) argued Earth is spherical from ships disappearing hull-first and the circular shadow during lunar eclipses. Eratosthenes (~240 BC) measured Earth's circumference using shadow angles in Alexandria vs Syene: ~40,000 km (within 2% of modern value).`,
+        `Ptolemy (~150 AD) codified geocentric astronomy in the Almagest with epicycles — accurate enough to navigate for 1400 years. Copernicus (1543) proposed heliocentrism in De Revolutionibus. Tycho Brahe (~1580) made the most precise pre-telescope observations (2 arcmin). Kepler (1609-1619) derived three laws from Tycho's data. Galileo (1610) used the telescope to see Jupiter's moons, Venus phases, and sunspots — confirming heliocentrism. Newton (1687) unified celestial and terrestrial mechanics with universal gravitation. Herschel (1781) discovered Uranus. Hubble (1924) proved galaxies are external; (1929) discovered expansion. Penzias & Wilson (1965): CMB discovery (Nobel 1978). Space age: Sputnik (1957), Apollo 11 (1969), Hubble Space Telescope (1990), JWST (2022). Key modern discoveries: exoplanets (first: 51 Peg b, Nobel 2019), dark energy (Nobel 2011), gravitational waves (Nobel 2017), and the first black hole image (EHT, 2019).`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Kepler's Laws of Planetary Motion`,
+      sub: `Elliptical orbits, equal areas, period-radius relation`,
+      paragraphs: [
+        `Johannes Kepler (1609-1619) discovered three laws of planetary motion by analyzing Tycho Brahe's precise observational data (accuracy ~2 arcminutes). First Law: planets orbit in ellipses with the Sun at one focus — r = a(1−e²)/(1+e·cosθ), where a = semi-major axis and e = eccentricity (Earth e=0.0167, nearly circular; Mercury e=0.2056; Pluto e=0.2488). Second Law (equal areas): a line from Sun to planet sweeps equal areas in equal times — dA/dt = L/(2m) = constant — planets move faster at perihelion (closest) and slower at aphelion.`,
+        `Third Law: T² = (4π²/GM)a³ — the square of the orbital period is proportional to the cube of the semi-major axis. For our solar system with T in years and a in AU: T² = a³ (Earth: T=1yr, a=1AU; Jupiter: a=5.2AU, T=11.86yr, check: 5.2³=140.6 ≈ 11.86²=140.7 ✓). Newton (1687) derived all three laws from universal gravitation F=GMm/r² and showed they apply to ANY two-body gravitational system. Orbital velocity v = √(GM/r) for circular orbits; escape velocity v_esc = √(2GM/r) (Earth: 11.2 km/s). Vis-viva equation v² = GM(2/r − 1/a) gives speed at any point in an elliptical orbit. Hohmann transfer between circular orbits uses two burns: ΔV_total = √(GM/r₁)(√(2r₂/(r₁+r₂))−1) + √(GM/r₂)(1−√(2r₁/(r₁+r₂))). Kepler's laws extend to exoplanets: transit method (Kepler space telescope found ~2,700 confirmed planets) and radial velocity (Doppler wobble) both use Kepler's third law to determine planetary masses and orbital parameters.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Islamic Golden Age Science`,
+      sub: `Al-Khwarizmi, Alhazen optics, Ibn Sina medicine, astrolabe, House of Wisdom`,
+      paragraphs: [
+        `The Islamic Golden Age (~750-1258 AD) produced extraordinary advances in mathematics, astronomy, optics, medicine, and chemistry, preserving and extending Greek/Indian knowledge during European intellectual stagnation. Baghdad's House of Wisdom (Bayt al-Hikma, ~830) under Caliph al-Ma'mun translated Greek texts (Euclid, Ptolemy, Aristotle, Galen) into Arabic — without these translations, much of Greek science would have been lost forever.`,
+        `Mathematics: Al-Khwarizmi (~820) wrote the foundational algebra text (al-Jabr → "algebra"; his name → "algorithm") and transmitted the Hindu-Arabic decimal system to the Islamic world → Europe. Omar Khayyam (~1070): classified and solved cubic equations geometrically using conic section intersections. Al-Kashi (~1420): calculated π to 16 decimal places — a record for 2 centuries. Optics: Ibn al-Haytham (Alhazen, ~1020, Kitab al-Manazir) — arguably the first modern scientist: proposed intromission theory of vision (light enters eye from objects, not vice versa — overturning Ptolemy/Euclid), performed experiments with camera obscura, studied refraction/reflection, and pioneered the scientific method (hypothesis → controlled experiment → conclusion). Astronomy: Nasir al-Din al-Tusi (1201-1274): Tusi couple (linear motion from two circular motions — later used by Copernicus without attribution). Medicine: Ibn Sina (Avicenna, Canon of Medicine, ~1025): 5-volume encyclopedia used as a medical textbook in Europe until the 17th century. Al-Razi (Rhazes): first to distinguish smallpox from measles; pioneered clinical observation. Chemistry: Jabir ibn Hayyan (Geber, ~800): distillation, crystallization, discovered mineral acids — "father of chemistry" (alkali, alcohol, alembic are all Arabic-origin words).`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Eddington Eclipse 1919`,
+      sub: `GR Confirmation`,
+      paragraphs: [],
+      theses: [
+        `Eddington-Dyson.`,
+        `relativity-fame.`,
+        `Principe + Sobral.`,
+      ],
+    },
+  ],
+  damascus: [
+    {
+      title: `Fullerene`,
+      sub: `Carbon Cage`,
+      paragraphs: [],
+      theses: [
+        `why-it-is-central noted.`,
+      ],
+    },
+    {
+      title: `Steel Metallurgy`,
+      sub: `Alloy Chemistry`,
+      paragraphs: [],
+      theses: [
+        `carbon + microalloy.`,
+      ],
+    },
+    {
+      title: `Carbon Nanotube`,
+      sub: `Rolled Graphene`,
+      paragraphs: [],
+      theses: [
+        `strong + conductive.`,
+        `properties + role studied.`,
+        `significance + context traced.`,
+      ],
+    },
+    {
+      title: `Carbon Nanotube`,
+      sub: `Rolled Graphene`,
+      paragraphs: [],
+      theses: [
+        `why-it-is-central noted.`,
+      ],
+    },
+    {
+      title: `Carbon Nanotubes 2024`,
+      sub: `Manufacturing`,
+      paragraphs: [],
+      theses: [
+        `Iijima 1991 — discovered MWCNTs, then SWCNTs 1993, all-carbon hollow cylinders, exceptional mechanical (>50 GPa tensile) + electrical.`,
+        `OCSiAl Russia — largest SWCNT manufacturer, TUBALL graphene-like product, 1 ppm in tires/plastics for conductivity + strength, $50/kg market price.`,
+        `CVD synthesis — Fe/Co/Ni catalyst on Si/Al2O3, ethylene/methane feed at 800°C, vertical aligned forests, Hata 2004 super-growth.`,
+        `Applications 2024 — Li-ion battery cathodes (Tesla 4680 cells), aerospace composites Boeing, LCD displays Samsung, transparent electrodes.`,
+        `Health concerns — long fibrous CNTs asbestos-like pathogenicity in lungs (Donaldson 2008), regulatory caution, REACH + EPA, biomedical use careful.`,
+      ],
+    },
+  ],
+  atom: [
+    {
+      title: `Atom Interferometry Gravimetry`,
+      sub: `Quantum Gravimeter`,
+      paragraphs: [],
+      theses: [
+        `Kasevich-Chu 1991.`,
+        `cold-atom freefall.`,
+        `absolute-g + gradient.`,
+        `MAGIS-100 dark-matter.`,
+        `field-survey 2026.`,
+      ],
+    },
+    {
+      title: `BEC moderno e gases ultrafrios`,
+      sub: `Rb Li Sr / Feshbach resonance / Hubbard simulator / BEC-BCS crossover`,
+      paragraphs: [
+        `Bose-Einstein condensate (BEC) — fifth state of matter predicted Bose-Einstein 1924-25; first achieved 1995 by Cornell-Wieman (Rb-87 at JILA) and Ketterle (Na at MIT) (Nobel Prize Physics 2001). Subsequent decades transformaram BECs from exotic curiosity to versatile platform quantum simulation + sensing. Modern field includes BECs of dozens of atomic species (Rb-87, Na, Li-7, Cs, K, Sr, Yb, Er, Dy, polar molecules KRb, NaK), achieved temperatures <1 nK regularly.`,
+        `Quantum simulation — BEC + Fermi gas systems implement Hamiltonians of condensed matter theory directly: optical lattice (interfering laser beams create periodic potential trapping atoms in lattice sites) = Hubbard model (lattice hopping + on-site interaction); tunable interactions via Feshbach resonance (magnetic field tunes scattering length a → from attractive to repulsive, weak to strong); spinor BECs implement spin Hamiltonians; 2D + 3D geometries; defect-free atom arrays via optical tweezers (Lukin/Browaeys groups Nature 2016+). Achievable insights: BCS-BEC crossover in Fermi gases (continuous transition from BCS-like pairing to BEC of Cooper pairs, model strongly-correlated superconductivity); Hubbard model direct phase diagram exploration (Mott insulator, antiferromagnet); topological phases via synthetic gauge fields; many-body localization + thermalization studies; Floquet engineering via time-dependent drives.`,
+        `Strongly correlated regimes: unitary Fermi gas — Fermi gas at exact unitarity (a → ∞) — universal scale-invariant behavior; measured precisely; theoretical playground (relates to neutron matter at low density!); p-wave superfluid emerging; Higgs mode in BCS superconductor observable. Synthetic dimensions: internal atomic states (hyperfine) treated as effective spatial dimensions enabling 4D-Hall systems. Hubbard models: experimental verification recent breakthroughs antiferromagnet ordering 2017 (Greiner Harvard) + d-wave superconductor analog 2024-2025 efforts.`,
+        `Atom interferometry: BEC + Bragg/Raman pulses create matter-wave interferometers — quantum sensors with sensitivity to gravity, rotation, accelerations; quantum gradiometers for geophysics (oil + mineral exploration via gravity variations); gyroscopes rivaling laser-based; tests of equivalence principle via different-species atoms; gravitational wave detection via atom interferometers proposed (MAGIS-100 underground, NASA's BECCAL on space station, ZAIGA China large-scale). Vacuum measurement via cold atom sensors.`,
+        `Quantum networks: BECs + Rydberg interactions provide qubits with long coherence + strong interactions; neutral atom quantum computing (QuEra, Atom Computing — separate entries) builds on this foundation. Polar molecules (KRb, NaK, CaF, SrF, etc) cooled to ~μK + sub-μK — provides strong dipole-dipole interactions ideal for quantum simulation extended Hubbard, quantum chemistry. Dipolar BECs Dy, Er, Cr — strong magnetic dipole-dipole interactions enable supersolid phases (combining superfluid + crystalline order, observed 2019). Optical clocks (separate entry) emerged from cold atom community + share infrastructure.`,
+        `Frontier 2024-2025: quantum chemistry on quantum simulators — ultracold molecule chemistry, controlled reactive collisions; Bose-Hubbard with disorder; 2D Hubbard pseudogap matching high-Tc cuprate physics; microscale BEC + atom-chip miniaturization toward portable devices; BECs in space NASA Cold Atom Lab on ISS operating 2018+ (CAL, BECCAL upgrade) — microgravity enables longer interrogation times, novel topologies; quantum simulators tackling problems classical computers cannot (lattice gauge theories, dense neutron matter). Quantum computing convergence: cold atom qubits competitive scale (~1000s qubits) + connectivity (reconfigurable) + coherence. Field very vibrant, Nobel-class results continuing.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Atom Interferometry`,
+      sub: `Precision Gravimetry`,
+      paragraphs: [],
+      theses: [
+        `quantum-computing.`,
+      ],
+    },
+    {
+      title: `Atom Interferometry`,
+      sub: `Matter Waves`,
+      paragraphs: [],
+      theses: [
+        `de Broglie 1924 — matter waves λ = h/p, Davisson-Germer 1927 electron diffraction confirmed, Nobel 1929 de Broglie + 1937 DG.`,
+        `Cold atom Mach-Zehnder — Kasevich-Chu 1991, laser-cooled atoms split + recombined via Raman pulses, Chu Nobel 1997.`,
+        `Gravimetry — Müller Berkeley 10^-9 g precision, Kasevich AOSense + MuQuans + ColdQuanta commercial gravimeters, oil/mineral exploration.`,
+        `α fine-structure — Cs Müller-Khoury 2018 + Rb Tino 2020, 10^-10 precision, complement electron g-2, tests Standard Model.`,
+        `Equivalence principle tests — Müller 2023 Science 10^-12, MICROSCOPE satellite 10^-15, atom interferometry adds quantum coherent test.`,
+      ],
+    },
+    {
+      title: `Quantum Sensing Atom Interferometry`,
+      sub: `Inertial`,
+      paragraphs: [],
+      theses: [
+        `atom-fountain gravimeter.`,
+        `equivalence-principle test.`,
+        `gradiometer-survey.`,
+        `space-mission 2026.`,
+      ],
+    },
+    {
+      title: `Quantum Sensing 2026`,
+      sub: `NV + Atom-Interferometry`,
+      paragraphs: [],
+      theses: [
+        `NV-center magnetometry nanoscale.`,
+        `Atom-interferometer gravity + inertial.`,
+        `Squeezed + entangled enhanced sensing.`,
+        `Gravitational + dark-matter probe 2026.`,
+        `Quantum-network distributed sensing 2026.`,
+      ],
+    },
+    {
+      title: `Ultracold Atoms`,
+      sub: `BEC + Quantum Sim`,
+      paragraphs: [],
+      theses: [
+        `BEC Bose-Einstein condensate — Cornell-Wieman-Ketterle Nobel 2001, Rb + Na cold atoms, foundation ultracold matter.`,
+        `Optical lattices — Bloch-Greiner + Esslinger + Bloch + Gross, quantum simulators of Hubbard models, condensed-matter on atoms.`,
+        `Rydberg atom arrays — Lukin Harvard + Browaeys Paris, programmable quantum simulators 256+ atoms, frontier 2024.`,
+        `Strontium optical clocks — Ye-Hall Boulder + JILA, 10⁻¹⁹ precision, ultimate clock + GR tests + dark matter probes.`,
+        `Atom interferometry — MAGIS-100 + AION + ZAIGA + ELGAR proposed, gravitational wave + GR + dark matter searches 2030s+.`,
+      ],
+    },
+    {
+      title: `Ultracold Atoms`,
+      sub: `BEC Formation`,
+      paragraphs: [],
+      theses: [
+        `why-the-extreme-teaches noted.`,
+      ],
+    },
+    {
+      title: `Atom Interferometry`,
+      sub: `Matter-Wave Sensing`,
+      paragraphs: [],
+      theses: [
+        `gravity + rotation.`,
+        `equivalence-test.`,
+        `navigation 2026.`,
+      ],
+    },
+    {
+      title: `Quantum Sensing Atomic Clocks`,
+      sub: `Optical Lattice Network`,
+      paragraphs: [],
+      theses: [
+        `1e-19-precision.`,
+        `relativistic-geodesy.`,
+        `dark-matter-search.`,
+      ],
+    },
+    {
+      title: `Atomic Clocks 2026`,
+      sub: `Optical + Nuclear`,
+      paragraphs: [],
+      theses: [
+        `Optical lattice — Sr/Yb 10⁻¹⁹ fractional uncertainty, most precise instruments ever built.`,
+        `Redefine second — BIPM roadmap toward optical SI second, 2030 target decision.`,
+        `Nuclear clock — Th-229 isomer, JILA + PTB 2024 breakthrough, ultra-stable frontier.`,
+        `Relativistic geodesy — clock-based height differences cm-level, Earth monitoring.`,
+        `Dark matter probes — clock networks search ultralight DM + constant drift 2026.`,
+      ],
+    },
+    {
+      title: `Atom Interferometry`,
+      sub: `Matter-Wave Sensing`,
+      paragraphs: [],
+      theses: [
+        `why-it-is-used noted.`,
+      ],
+    },
+  ],
+  quantum_adv: [
+    {
+      title: `Quantum error correction — Willow`,
+      sub: `Google Willow Dec 2024 / surface code distance / logical qubit / IBM Heron Quantinuum H2`,
+      paragraphs: [
+        `Quantum computing's fundamental challenge: decoherence + errors — qubits extremely fragile; Quantum Error Correction (QEC) — encoding logical info across many physical qubits redundantly so errors detectable + correctable without measuring quantum state — long theoretical solution. December 2024 Google announced Willow + below-threshold QEC — major milestone toward fault-tolerant quantum computing.`,
+        `QEC fundamentals: Peter Shor 1995 first QEC code; Calderbank-Shor-Steane (CSS) codes; surface code (Kitaev, Bravyi, Fowler) leading for solid-state — 2D lattice of qubits with ancillas measuring stabilizers; error syndrome continuously measured; classical decoder identifies + corrects. Threshold theorem (Aharonov-Ben-Or, Knill-Laflamme-Zurek): if physical error rate below threshold (~1% for surface code), arbitrarily large reliable computation possible via scaling QEC.`,
+        `Surface code + distance: Distance-d code uses ~d² physical qubits + corrects up to (d-1)/2 errors; logical error rate decreases exponentially with d when below threshold; fault tolerance requires distance ~17-30+ (1000s physical qubits per logical qubit).`,
+        `Willow milestone December 2024:Hartmut Neven (Google Quantum AI) + team announced Willow:• 105 superconducting qubits (vs Sycamore's 53);• improved coherence times ~100 μs (~2× Sycamore generation);• Below threshold demonstration — increasing surface code distance from 3 → 5 → 7 → exponentially reducing logical error rates (~2× error suppression per code distance step) — qualitative signature of below-threshold; previously unclear superconducting platforms could achieve;• Performance benchmark: random circuit sampling reportedly ~5 minutes vs estimated 10 septillion years (~10²⁵) classical Frontier — extending quantum advantage;• Logical qubit at distance 7 outperforming single physical qubit lifetime — net positive logical information.Reactions: widespread excitement; Scott Aaronson + others called most significant quantum computing demonstration yet; cautioned still long way to fault-tolerant utility-scale; benchmark of limited practical use itself.`,
+        `Other QEC progress:IBM Heron + Quantum System Two 2024+ — IBM roadmap targets 200 logical qubit Starling system by 2029; mixed approach better physical qubits (Heron 156 qubits 2024) + error mitigation + future QEC.Quantinuum H2 — ion trap; 56 high-quality qubits, very low error rates; 2024 demonstrated logical qubit operations with QEC; different tradeoff (fewer + higher-quality qubits).QuEra (Boston) — neutral atom; 256+ atoms with QEC 2023-2024.PsiQuantum — photonic; targeting million-qubit fault-tolerant; Australian government partnership 2024.Atom Computing — 1180-atom system 2023.IonQ, Rigetti, Pasqal, IQM, Oxford Quantum Circuits additional.`,
+        `Path to utility: FTQC with millions of physical qubits could:• Break RSA-2048 — Shor's — requires ~10⁷-10⁸ physical qubits (Gidney + Ekerå 2021 estimate ~20M qubits); 2030s-2040s plausible;• Quantum chemistry + materials simulation — significant industrial value; ~100-1000 logical qubits useful; nearer term (2027-2032);• Optimization + quantum sensing + metrology commercial near-term.`,
+        `Outlook + skepticism: genuine excitement — Willow demonstrates path to fault tolerance is real; scaling immense — 10⁵-10⁶ physical qubits requires orders of magnitude scaling + sustained engineering. Refrigeration, control electronics, software decoders all scale challenges. Useful quantum advantage demonstrations remain elusive; fault-tolerant + useful likely 2030+. Post-quantum cryptography migration (separate entry) accelerated by QEC progress. Among most consequential physics + engineering achievements of decade; foundational for emerging quantum economy 2030s-2040s.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Quantum Advantage`,
+      sub: `Supremacy demonstrations, NISQ era`,
+      paragraphs: [
+        `The point where a quantum computer performs a task infeasible for any classical computer. Critical milestone proving quantum computing is real.`,
+        `Google Sycamore (2019): 53-qubit superconducting processor sampled random quantum circuits in 200 seconds; estimated 10,000 years for classical supercomputers. Later challenged: IBM claimed 2.5 days with better classical algorithms. Still major milestone.`,
+        `USTC Jiuzhang (2020): 76-photon boson sampler. Gaussian boson sampling — calculating permanent of complex matrices. 10¹⁴× faster than classical for that problem.`,
+        `USTC Zuchongzhi (2021): 66-qubit superconducting, random circuit sampling, claimed 10⁶× faster than Sycamore demonstration.`,
+        `Quantinuum H2 (2023): 56-qubit trapped ion, random circuit sampling with high fidelity. Established new benchmarks.`,
+        `Critiques and definitions: 'Quantum supremacy' problems are often artificial — random circuit sampling has no practical use. 'Quantum advantage' on useful problems remains elusive but approaching for: chemistry simulation, optimization, machine learning.`,
+        `NISQ era (Preskill): Noisy Intermediate-Scale Quantum — 50-1000 qubits, error rates ~0.1-1%, no full error correction. Algorithms: VQE, QAOA, quantum machine learning. Pre-fault-tolerant regime.`,
+        `Useful quantum advantage estimated: Materials science 2025-2030, drug discovery 2027-2032, optimization unclear, cryptography (Shor) needs fault-tolerance ~2030-2040.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Quantum Supremacy Sampling`,
+      sub: `Random Circuit`,
+      paragraphs: [],
+      theses: [
+        `Google-Sycamore 2019.`,
+        `cross-entropy benchmark.`,
+        `spoofing-debate.`,
+        `boson-sampling alt.`,
+        `verification 2026.`,
+      ],
+    },
+    {
+      title: `Topological Quantum Computing`,
+      sub: `Non-Abelian anyons, Majorana qubits, Microsoft approach, topological protection`,
+      paragraphs: [
+        `Topological quantum computing (TQC) encodes information in the global properties of anyonic quasiparticles rather than local states of individual particles — making qubits inherently resistant to local noise. In 2D systems, exchanging (braiding) non-Abelian anyons performs quantum gates: the result depends on the TOPOLOGY of the braid (how world-lines wrap around each other), not the exact path — like knot theory. Small perturbations don't change topology, providing built-in error protection.`,
+        `Majorana fermions — particles that are their own antiparticles, predicted by Ettore Majorana (1937) — are the leading candidate for non-Abelian anyons. Microsoft has pursued TQC through Majorana zero modes at the ends of semiconductor-superconductor nanowires (InAs/Al, InSb/Al). In 2025, Microsoft claimed observation of topological signatures and began building a topological qubit. Kitaev's toric code is the theoretical foundation: a lattice model where anyonic excitations carry topological quantum numbers. The Fibonacci anyons model is universal for quantum computation — any quantum gate can be approximated by braiding to arbitrary precision. Challenges: creating and controlling non-Abelian anyons remains at the frontier of experimental physics. Alternative platforms: fractional quantum Hall states (ν=5/2 may host non-Abelian anyons), Josephson junction arrays, and photonic topological systems. If successful, TQC could achieve fault-tolerant quantum computing with far fewer physical qubits than surface codes.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Quantum Advantage 2024`,
+      sub: `Beyond Supremacy`,
+      paragraphs: [],
+      theses: [
+        `Google Sycamore Oct 2019 — 53-qubit, claimed first quantum supremacy random circuit sampling, IBM countered classical simulation feasible.`,
+        `USTC China Jiuzhang + Zuchongzhi — photonic Gaussian boson sampling 2020-2022 + superconducting 2021, multiple supremacy claims.`,
+        `Google Willow Dec 2024 — 105 qubits, surface code distance-7 below threshold breakthrough Nature, fault-tolerant path demonstrated.`,
+        `Quantinuum H2 — trapped-ion 56 qubits, race-to-bottom error rates, claimed quantum-supremacy advantage by another route 2024.`,
+        `Useful advantage — IBM 100+ qubit Heron + Quantinuum H2 + Atom Computing 1180 qubits, NISQ + early FT demos, killer-app elusive.`,
+      ],
+    },
+    {
+      title: `Quantum Computing 2025`,
+      sub: `Logical Qubits`,
+      paragraphs: [],
+      theses: [
+        `Below threshold — Google Willow Dec 2024, error rate halves per code distance, milestone.`,
+        `Logical qubits — QuEra/Harvard 48 + Microsoft-Quantinuum + IBM, error-corrected ops 2025.`,
+        `Modalities — superconducting + neutral atoms + trapped ions + photonic, competing 2025.`,
+        `qLDPC codes — Bravyi-Cross IBM, ~10× fewer qubits than surface code 2025.`,
+        `Utility era — IBM + Google + utility-scale claims, fault-tolerant roadmaps 2025-2030.`,
+      ],
+    },
+    {
+      title: `Superconducting Qubits`,
+      sub: `Transmon + Scaling`,
+      paragraphs: [],
+      theses: [
+        `Transmon — Koch-Schoelkopf Yale 2007, charge-noise-insensitive, dominant superconducting qubit, IBM + Google + Rigetti.`,
+        `IBM Heron + Condor 2023-2024 — 133 + 1121 qubits, tunable couplers, error mitigation + modular Quantum System Two.`,
+        `Google Willow Dec 2024 — 105 qubits, below-threshold QEC, random circuit sampling benchmark, milestone.`,
+        `Coherence times — T1/T2 100+ μs tantalum + improved fabrication + 3D integration, scaling challenges 2024.`,
+        `Cryogenic control — Intel Horse Ridge + Google + IBM, scalable wiring + control electronics bottleneck 2024.`,
+      ],
+    },
+    {
+      title: `Quantum Supremacy`,
+      sub: `Computational Edge`,
+      paragraphs: [],
+      theses: [
+        `quantum-computing.`,
+      ],
+    },
+    {
+      title: `Quantum utility e supremacia`,
+      sub: `random circuit sampling / Jiuzhang boson / classical simulation race`,
+      paragraphs: [
+        `Hierarquia conceptual quantum supremacy / advantage / utility diferenciada na literatura: quantum supremacy (also "quantum computational advantage") significa demonstração formal de problema computacional que quantum hardware resolve impossivelmente faster than any classical computer — ainda que problem possa não ter aplicação prática (sintético). Quantum advantage typically refers para useful problem (chemistry, optimization, ML) solvable faster on quantum. Quantum utility (term IBM cunhou 2023) refers para demonstrations beyond brute-force classical simulation em meaningful application context, sem precisar full supremacy proof. Practical / commercial quantum advantage: economically valuable speedup justifying cost — still future.`,
+        `Histórico demonstrations: Google Sycamore (Oct 2019) claimed first quantum supremacy via Random Circuit Sampling (RCS) — 53 qubits, sampling from depth-20 random circuit, claim 200 seconds quantum vs 10,000 years classical (Summit supercomputer). Later challenged by classical algorithms (tensor networks IBM, Pan Jian-Wei China) reducing classical cost to days — claim revised. USTC Jiuzhang (Dec 2020) Chinese group, Gaussian boson sampling photonic, 76 modes, claim 200 seconds quantum vs 600 million years classical Sunway TaihuLight; followed by Jiuzhang 2.0/3.0 (2021-2022) with more modes increasing the classical-quantum gap further. Xanadu Borealis (Jun 2022) 216-mode photonic boson sampling, 36 microseconds vs claimed 9000 years classical. Google Willow (Dec 2024) claim 3rd-gen RCS 10²⁵ years classical (longer than universe age) at scale where classical simulation truly infeasible — most authoritative supremacy demo to date.`,
+        `Classical pushback historical: improvements algorithmic (tensor network contraction, simulation methods leveraging structure) consistently chip away apparent quantum advantage. Race ongoing — classical simulation IBM ATLAS team, others, push boundaries. Lesson: supremacy benchmarks valid as snapshot showing exponential scaling diverge, mas claims need replication and classical research catches up.`,
+        `Toward practical advantage: quantum chemistry — small molecules currently doable classically; molecules >50 atoms with strong correlations could become quantum-advantage scale ~2027-2030 with QEC; combinatorial optimization — QAOA mixed evidence on advantage vs classical heuristics (CMA-ES, simulated annealing surprisingly competitive); quantum machine learning — many proposed advantages but rigorously demonstrated speedups elusive (data-loading bottleneck); simulation of quantum systems — strongest near-term candidate (Feynman's original motivation 1982). Quantum sampling for sampling-related ML, MCMC, Bayesian inference — emerging research direction. NISQ era (Preskill 2018 — Noisy Intermediate-Scale Quantum) productive but transitional — fault-tolerant era will unlock dramatic capability. Hybrid algorithms (variational, classical pre/post-processing) standard NISQ approach extended to FT era. Quantum + AI convergence increasingly explored — quantum embeddings, quantum-enhanced sampling for diffusion models, etc — speculative but active research.`,
+      ],
+      theses: [],
+    },
+  ],
+  impact: [
+    {
+      title: `Carbon Capture & Sequestration`,
+      sub: `DAC, CCUS, mineralization, BECCS`,
+      paragraphs: [
+        `Removing CO₂ from emissions or directly from the atmosphere. IPCC scenarios all require gigatonne-scale carbon removal alongside emissions cuts to meet 1.5-2°C targets. Industry scaling from megatonne to gigatonne over coming decades.`,
+        `Point-source capture (post-combustion): CO₂ from power plant or industrial flue gas. Amine solvents (MEA, advanced amines) absorb CO₂; heating releases pure CO₂. ~85-90% capture rate, but ~25% energy penalty. Norway's Northern Lights (2024 operational): 1.5 Mt/yr CO₂ from cement, fertilizer, gas plants → sub-seabed storage.`,
+        `Oxyfuel combustion: Burn fuel in pure O₂ (not air). Flue gas = mostly CO₂ + H₂O. Simpler capture but ASU (air separation unit) expensive. NET Power: combined oxyfuel + Allam cycle.`,
+        `Direct Air Capture (DAC): Pulls CO₂ from atmosphere (~420 ppm, very dilute — 250× harder than flue gas). Climeworks (Switzerland): operating Orca + Mammoth in Iceland (36,000 t/yr). Carbon Engineering + 1PointFive (Texas): Stratos plant 500K t/yr coming online. Two main approaches: liquid solvent (KOH/Ca-cycle) or solid sorbent (amine on resin). Cost currently $400-1000/tCO₂; target <$100.`,
+        `Mineralization: CO₂ reacts with Mg/Ca-rich rocks (basalt, peridotite) to form stable carbonates. Permanent on geological timescales. CarbFix (Iceland) — injected CO₂ in basalt mineralizes in 2 years (originally thought to take centuries). Massive potential in basalt deposits worldwide.`,
+        `Geological storage: Pump supercritical CO₂ into deep saline aquifers (1000+ m depth) or depleted oil/gas reservoirs. Sleipner (Norway) injecting since 1996, no leaks. Capacity globally: trillions of tonnes.`,
+        `BECCS (Bioenergy with CCS): Grow biomass (absorbs CO₂), burn for energy, capture CO₂. Net-negative emissions if done right. Drax (UK) — converted coal plant to biomass, planning CCS. Land-use concerns for scale.`,
+        `Enhanced weathering: Crush silicate rocks, spread on farmland. CO₂ reacts naturally, captured as bicarbonate. Co-benefit: soil amendment.`,
+        `Ocean CDR: Add alkalinity (e.g., olivine), grow seaweed, fertilize phytoplankton. Highly experimental. Concerns about ecosystem impacts.`,
+        `Utilization (CCU): Use captured CO₂: synthetic fuels (e-fuels, methanol), polymers, carbonated drinks, concrete (CarbonCure injects CO₂ into concrete — permanently sequestered).`,
+        `Carbon credits: Voluntary market $2B+. Verra, Gold Standard. CDR removal credits (high quality) $100-2000/tCO₂. Stripe Frontier, $1B+ purchases driving market.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Direct air capture chemistry`,
+      sub: `DAC / Climeworks Mammoth / Heirloom calcium loop / 1PointFive Stratos / amines hydroxides / 280 ppm`,
+      paragraphs: [
+        `Direct Air Capture (DAC) — removing CO₂ directly from atmosphere (~420 ppm) using chemical or physical sorbents; among major carbon dioxide removal (CDR) technologies for climate stabilization. 2024 commercial milestones: Climeworks Mammoth (Iceland) launched May 2024, 1PointFive Stratos (Texas) construction, Heirloom calcium loop scaling; massive investment driven by IRA tax credits + corporate net-zero commitments. Tier 11 entry covered carbon removal generally; this expands on chemistry + 2024 commercial reality.`,
+        `DAC chemistry approaches:Liquid solvent (amine + hydroxide):• Carbon Engineering / 1PointFive approach;• KOH solution absorbs CO₂ → K₂CO₃;• Calcium loop — K₂CO₃ + Ca(OH)₂ → CaCO₃ + KOH (regenerate);• CaCO₃ heated → CaO + CO₂ (concentrated stream);• High-temperature ~900°C calcination — energy-intensive;• Mature gas chemistry — leverages industrial processes;• Stratos plant (Texas, 2025) — first commercial-scale 500K tonnes CO₂/year;• Occidental Petroleum + 1PointFive;Solid sorbent (amines on porous materials):• Climeworks + Heirloom + others;• Amine-functionalized solid supports — silica, MOFs, polymers, alumina;• Primary, secondary, tertiary amines bind CO₂ via carbamate formation:• 2 R-NH₂ + CO₂ ⇌ R-NH-COO⁻ + R-NH₃⁺;• Regeneration — heat (~80-100°C) or vacuum or steam;• Lower temperature than liquid approach — more efficient;• Climeworks Mammoth uses solid amine on porous substrate;• ~36,000 tonnes CO₂/year nameplate — May 2024 launch;Calcium loop / Heirloom approach:• Calcium hydroxide on trays absorbs CO₂ → CaCO₃ from ambient air;• Calcination in low-CO₂ kilns → CaO + pure CO₂;• Mineral chemistry familiar from cement;• Trays open to atmosphere — passive CO₂ uptake;• ~1000 tonnes/year Tracy CA facility;• Heirloom Carbon founded 2020;Other approaches:• Electrochemical DAC — emerging — Verdox, Capture6, Mission Zero;• Moisture swing — Klaus Lackner concept;• Membrane-based;• MOF-based — research stage but promising;• Cryogenic — high energy.`,
+        `Major commercial projects 2024:Climeworks Mammoth (Iceland, May 2024):• ~36,000 tonnes/year nameplate;• 10× larger than Orca (4,000 tonnes/yr, 2021);• Hellisheiði geothermal power adjacent;• Carbfix mineralization storage — CO₂ injected into basalt → carbonates within ~2 years;• ~$1000/tonne current cost;• Microsoft, Stripe, JP Morgan, Shopify, Boston Consulting Group, BCG major customers;1PointFive Stratos (Texas):• 500,000 tonnes/year nameplate;• Carbon Engineering technology;• Occidental Petroleum subsidiary;• Operations 2025;• $1B+ project cost;• Larger projects planned (1M+ tonnes);Heirloom Tracy California:• ~1000 tonnes/year first plant 2023;• Larger Louisiana facility 2025+;• Stripe + Frontier Climate major customer;Stratos hub Louisiana — multiple DAC plants planned;1.5 Mt + 1 Mt federal DAC hubs (US DOE):• Project Cypress (Louisiana) + South Texas DAC Hub;• ~$1B+ each federal funding;• Operations late 2020s.`,
+        `Cost + economics:Current DAC costs:• ~$600-1000/tonne CO₂ typical 2024;• Climeworks ~$1000+;• 1PointFive targeting ~$300-500/tonne at scale;• Target: $100-200/tonne;Cost components:• Energy ~50% — heat (thermal) + electricity (fans + pumps);• Capital ~30% — large equipment, sorbents;• O&M ~20%;IRA 45Q tax credit:• $180/tonne DAC for permanent storage;• $130/tonne for utilization (EOR less attractive);• Major economic driver;Voluntary carbon market:• Microsoft, Stripe, Frontier Climate Coalition, Google, Salesforce, Meta;• Frontier Climate $1B+ commitment;• Microsoft ~10-12M tonnes total commitments;• Premium quality DAC credits ~$500-1500/tonne;Compliance markets emerging — California LCFS, EU ETS additions.`,
+        `Storage + utilization:Geological storage:• Saline aquifers — dominant approach;• Depleted oil + gas fields;• Basalt mineralization — Carbfix Iceland, Wallula USA;• Permanent if properly executed;• Class VI EPA permits in US — long approval times;• ~2-7 km depth typical injection;Mineralization:• Reaction with metal silicates → carbonates;• Permanent + safe;• Limited geographic locations (basalt);Utilization (CCU):• Fuels — e-fuels synthetic;• Chemicals + materials;• Concrete;• Direct ocean injection — controversial;• Less permanent than geological;Enhanced oil recovery (EOR):• Older usage but climate benefit limited.`,
+        `Energy + sustainability:Energy requirements:• ~6-10 GJ thermal + 2-4 GJ electrical per tonne CO₂;• ~500-2000 kWh equivalent per tonne;• Climate must be net-negative — clean energy critical;Power sources:• Geothermal (Iceland);• Nuclear (proposed) — proposed for several US hubs;• Renewables + storage;• Stranded renewable energy;• Industrial waste heat;Land + water requirements:• ~1 km² per Mt CO₂/year facility;• Water — some processes consumptive, others not;• Generally better than bioenergy approaches per area.`,
+        `Comparison + portfolio context:CDR options from most permanent + costly to least:• DAC + geological storage — most permanent, highest cost;• BECCS (Bioenergy + CCS) — costly + land-intensive;• Enhanced rock weathering — emerging;• Ocean alkalinity — emerging;• Biochar;• Mineralization;• Coastal blue carbon;• Soil carbon;• Afforestation — variable permanence;IPCC + IEA scenarios:• 1-15 Gt/year CDR by 2050 typical;• Larger fraction DAC over time;• Cannot replace emission reductions — supplements;• Hard-to-abate sector offset.`,
+        `Outlook 2024-2030: Climeworks Mammoth + 1PointFive Stratos launching;DOE hubs construction;~10-50 Mt/year DAC capacity by 2030;Cost reduction to $300-500/tonne achievable;$100/tonne longer-term target;Scale-up challenges — energy, financing, permitting, supply chains;Commercial buyer ecosystem Frontier, Microsoft, etc.;Equity + access — Global South participation;Critical climate role — necessary supplement to mitigation;Hype vs reality debate — significant skepticism remains. Among most consequential + uncertain climate technology areas.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `History of Climate Science`,
+      sub: `Fourier greenhouse, Arrhenius CO2, Keeling curve, IPCC, Paris Agreement`,
+      paragraphs: [
+        `Climate science evolved over 200 years from theoretical physics to global policy driver. Joseph Fourier (1824): first proposed that the atmosphere traps heat ("greenhouse effect" concept). John Tyndall (1859): experimentally demonstrated that CO₂ and H₂O absorb infrared radiation while N₂ and O₂ do not → identified greenhouse gases. Svante Arrhenius (1896): calculated that doubling CO₂ would raise temperature ~5-6°C — remarkably close to modern estimates of 2.5-4.0°C (he used pen and paper for months of calculation!).`,
+        `Charles David Keeling (1958): began continuous CO₂ measurements at Mauna Loa → the Keeling Curve — humanity's most important graph: CO₂ rose from 315 ppm (1958) → 425 ppm (2024), a 35% increase, with seasonal oscillations from Northern Hemisphere vegetation. Syukuro Manabe (Nobel 2021): developed first climate model (1967) predicting ~2°C warming per CO₂ doubling using radiative-convective equilibrium. James Hansen (1988): testified before US Congress that global warming was detectable — put climate change on the political agenda. IPCC (Intergovernmental Panel on Climate Change, 1990): established by UN/WMO → synthesis reports every ~7 years, involving thousands of scientists. IPCC AR6 (2021-2023): "It is unequivocal that human influence has warmed the atmosphere, ocean and land." Paris Agreement (2015): 196 nations agreed to limit warming to well below 2°C, preferably 1.5°C above pre-industrial — requires net-zero emissions by ~2050. Current warming: ~1.2°C above pre-industrial (2024); 2023 was the hottest year on record. Evidence: isotopic signature of fossil fuel CO₂ (¹³C depletion), simultaneous stratospheric cooling + surface warming (greenhouse signature), and 800 kyr ice core record showing current CO₂ unprecedented.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Carbon Capture 2024`,
+      sub: `DAC + CCUS`,
+      paragraphs: [],
+      theses: [
+        `DAC direct air capture — Climeworks Orca 4 ktCO2/y Iceland + Mammoth 36 ktCO2/y Iceland 2024 + Heirloom mineral DAC California.`,
+        `Occidental 1PointFive Stratos — 500 ktCO2/y Texas, Carbon Engineering tech, Microsoft + Amazon offtake, 2025 startup target.`,
+        `Costs — $400-1000/ton 2024, $100/ton DOE target 2030, IRA 45Q $180/ton credit, drives commercial scale-up.`,
+        `CCUS point-source — flue gas amines + advanced sorbents + membranes, Shell Quest Canada + Boundary Dam Saskatchewan + Northern Lights Norway.`,
+        `Enhanced weathering — UNDO + Lithos Carbon basalt powder agricultural + Vesta olivine coastal, biogeochemical CO2 sequestration scalable.`,
+      ],
+    },
+    {
+      title: `Carbon Capture & Storage`,
+      sub: `DAC, CCS, mineralization, BECCS, cost, gigaton scale challenge`,
+      paragraphs: [
+        `Carbon Capture and Storage (CCS) removes CO₂ from emission sources or the atmosphere and permanently stores it underground. Three stages: capture (separate CO₂ from gas mixtures), transport (pipeline or ship), storage (inject into deep geological formations). Point-source capture from power plants/industry: post-combustion (amine scrubbing — MEA absorbs CO₂ at 40°C, releases at 120°C; energy penalty ~25-40% of plant output), pre-combustion (gasify fuel → shift to H₂+CO₂ → separate — IGCC plants), oxy-fuel (burn in pure O₂ → exhaust is ~90% CO₂).`,
+        `Direct Air Capture (DAC) removes CO₂ from ambient air (~424 ppm, 2024). Climeworks (Orca plant, Iceland, 2021: 4,000 t CO₂/year; Mammoth, 2024: 36,000 t/year) uses solid sorbent filters; Carbon Engineering/1PointFive uses liquid KOH solvent. Current cost: $250-600/ton CO₂ — target <$100/ton for scale. Thermodynamic minimum: ~20 kJ/mol ≈ ~$10/ton (separation from 0.04% concentration requires overcoming mixing entropy). Geological storage: inject CO₂ at >800m depth (supercritical state, density ~600 kg/m³) into: saline aquifers (largest capacity — potentially 1,000+ Gt CO₂), depleted oil/gas reservoirs (proven containment — Sleipner, Norway has stored 1 Mt/yr since 1996), and unmineable coal seams (CO₂ adsorbs, displacing CH₄). Mineralization: CO₂ + basalt → carbonate minerals (CarbFix in Iceland: 95% mineralized within 2 years — most permanent storage). Scale needed: IPCC scenarios require 5-16 Gt CO₂/year removal by 2050; current global CCS: ~0.045 Gt/year — a >100× scale-up needed. Enhanced oil recovery (EOR) uses CO₂ injection to extract more oil — commercially proven but controversial (enables more fossil fuel use).`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Carbon Capture Chem`,
+      sub: `Sorbents + DAC`,
+      paragraphs: [],
+      theses: [
+        `Amine scrubbing — incumbent post-combustion mature capture.`,
+        `MOFs + sorbents — amine-MOF + Mg2(dobpdc) selective DAC 2026.`,
+        `Climeworks + 1PointFive — megatonne DAC plant scaling 2026.`,
+        `Electrochemical — Verdox + electro-swing low-energy 2026.`,
+        `Utilization — CO2-to-fuels + minerals + materials 2026.`,
+      ],
+    },
+    {
+      title: `Direct Air Capture Scale`,
+      sub: `DAC Economics`,
+      paragraphs: [],
+      theses: [
+        `$100/ton-target far.`,
+        `energy-intensive.`,
+        `gigaton-gap huge.`,
+      ],
+    },
+    {
+      title: `MOFs e direct air capture`,
+      sub: `Yaghi / MOF-74 / amine functionalization / DAC plant Climeworks Mammoth`,
+      paragraphs: [
+        `MOFs (Metal-Organic Frameworks) são class de hybrid crystalline materials com metal nodes (single ions ou clusters multi-metallic) connectados por organic linkers (carboxylates, imidazolates, pyridines etc) — formando estruturas porosas 3D com surfaces areas astronomically high (até 7800 m²/g recordista MOF-210) — equivalent a um campo de futebol per gram. Pioneered por Omar Yaghi (UC Berkeley, Iraqi-American) com seminal MOF-5 (1999 Nature) — Zn₄O cluster + benzene-1,4-dicarboxylate linker; subsequent thousands of MOF topologies + chemistries reportadas. Modular design via "reticular chemistry": choose metal node + organic linker → predictable framework topology + properties. COFs (Covalent Organic Frameworks) — all-organic relatives (boronic acid, imine, etc bonds).`,
+        `Properties exploitable: high surface area (storage); pore size tunable (1-50 Å range, sub-nm to mesoporous); chemical functionality incorporable via linker design (hydroxyl, amine, halide, etc.); thermal stability wide range (MOF-74 family stable to 350°C); active metal sites (open metal sites coordinate guests with high affinity — important for catalysis + selective adsorption).`,
+        `Applications:Gas storage — H₂ storage at relatively low pressures, CH₄ storage for natural gas vehicles, ammonia, CO. Gas separation — selectively adsorb one component over another. Catalysis — confined cavity with active sites for reactions (asymmetric synthesis, hydrogenation, oxidation). Drug delivery — biocompatible MOFs (MIL-100, MIL-101, ZIF-8) load and release drugs via pH/ionic strength triggers. Sensing — selective binding of analytes triggers fluorescence/conductance changes. Water harvesting from atmosphere — MOF-303 + MOF-801 (Yaghi 2018+) adsorb water vapor at low humidity, release with mild heating — passive water generation in arid environments; Water Harvester (Yaghi spinoff company commercializing). CO₂ capture — major focus, see below.`,
+        `CO₂ capture + Direct Air Capture (DAC) — most discussed application. Two contexts: (1) post-combustion capture at point sources (power plants, cement factories, ~5-15% CO₂ in flue gas) — concentrated source, mature scrubber tech (amine scrubbers, MEA-based, energy-intensive ~3-4 GJ/ton CO₂); MOFs can compete via lower regeneration energy. (2) direct air capture (DAC) — extract CO₂ directly from ambient air (~420 ppm = 0.042% — extremely dilute) — much harder thermodynamically, requires high selectivity material; emerging field, several pilot plants. MOF-74 (M-MOF-74, M = Mg, Co, Ni) with open metal sites binding CO₂ strongly; amine-functionalized MOFs mimic amine scrubber chemistry but in solid sorbent form, lower regeneration energy.`,
+        `DAC commercial: Climeworks (Zurich, Switzerland) — uses solid amine sorbents (not MOFs typically — proprietary structured sorbents); Mammoth plant Iceland 2024 — largest DAC operating 36,000 tCO₂/year capacity (still tiny vs global emissions ~37 GtCO₂/yr — DAC remains expensive ~$500-1000/ton current, target <$100/ton needed at scale). Carbon Engineering (Canada) — alkaline solution (KOH) chemistry, larger plants planned 1 MtCO₂/yr Texas (now owned Occidental). 1PointFive Stratos — operating in Texas, captured CO₂ for EOR + sequestration. MOF-based DAC startups: Avnos, Mosaic Materials (now part of BASF), Heirloom Carbon, RepAir Carbon (electrochemistry-based), Spiritus, Verdox. IRA Inflation Reduction Act (US 2022) 45Q tax credit $180/tCO₂ DAC-sequestered created economics for early scaling. DAC Hub program — $3.5B US DOE funding for 4 regional hubs.`,
+        `Challenges DAC: energy regeneration (heat or pressure swing to desorb CO₂ — typically 1.5-3 GJ/tCO₂ best sorbents, prefer renewable energy); water consumption; cost scaling (current ~$500-1000/tCO₂ → target <$100); materials degradation over thousands of cycles; scale (gigaton scale for climate impact requires plants of unprecedented size + abundant clean energy + cheap CO₂ storage geological). Sequestration: geological injection (basalt mineralization Iceland Climeworks/Carbfix injects in basalt mineralizes carbonates rapidly), saline aquifer, depleted oil/gas reservoirs, ocean alkalinity enhancement. Public reception: critique that DAC distracts emission reduction; advocates emphasize necessary for "hard-to-abate" sectors + legacy emissions removal. IPCC AR6 nearly all 1.5°C scenarios require massive CDR (Carbon Dioxide Removal) including DAC.`,
+      ],
+      theses: [],
+    },
+  ],
+  whatif: [
+    {
+      title: `Ancient Mathematics`,
+      sub: `Babylonian, Egyptian, Greek, Chinese, Indian, Islamic golden age`,
+      paragraphs: [
+        `Mathematics originated independently in multiple civilizations. Babylonian (~2000 BC): base-60 number system (survives in 60 seconds/minute, 360°/circle); Plimpton 322 tablet: table of Pythagorean triples → understood a²+b²=c² ~1000 years before Pythagoras; could solve quadratic equations. Egyptian (~1650 BC): Rhind Papyrus — area of circle ≈ (8d/9)² → π≈3.16 (1% error); knew algorithm for multiplication by doubling (essentially binary).`,
+        `Greek (~600 BC-300 AD) — the revolution of PROOF: Thales: first mathematical proofs. Pythagoras (~500 BC): discovered irrational numbers (√2 cannot be expressed as p/q — legend says a follower was drowned for revealing this). Euclid (~300 BC): Elements — 13 books, axioms → theorems; the most influential math text ever (2nd most printed book in history after Bible); proved infinitely many primes (elegant proof by contradiction). Archimedes (~250 BC): method of exhaustion (proto-calculus), calculated π to 3.1408-3.1429, volumes of solids of revolution, and the Sand Reckoner (a system to name enormous numbers). Indian (~500-1200 AD): zero as a number (Brahmagupta, 628: rules for zero arithmetic, negative numbers); decimal place-value system (most important mathematical invention — our "Arabic" numerals are actually Indian); Aryabhata (499): sin tables, Earth's rotation; Madhava (~1350): infinite series for π/4 = 1−1/3+1/5−... ("Leibniz formula" 300 years early), power series for sin, cos → proto-calculus. Islamic Golden Age (~800-1400): Al-Khwarizmi (~820): Al-Kitab al-Mukhtasar — systematic algebra (from which "algebra" is named; "algorithm" from his name); preserved and transmitted Greek mathematics to Europe. Chinese: Rod calculus, Nine Chapters on Mathematical Art (~200 BC): Gaussian elimination 2000 years before Gauss; remainder theorem (Chinese Remainder Theorem); negative numbers centuries before India.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Ancient Chinese Science`,
+      sub: `Four Great Inventions, Zheng He, seismograph, acupuncture, gunpowder`,
+      paragraphs: [
+        `Ancient China produced transformative scientific and technological innovations spanning millennia. The Four Great Inventions: Papermaking (Cai Lun, ~105 AD — refined mulberry bark/hemp process; reached Europe via Arabs after Battle of Talas, 751), Printing (woodblock ~700 AD; moveable type by Bi Sheng, ~1040 — 400 years before Gutenberg; used ceramic characters), Gunpowder (~9th century, Tang dynasty alchemists seeking immortality elixirs discovered KNO₃/S/C mixture; military use by 10th century; reached Europe ~1250), Compass (magnetite "south-pointing spoon" ~200 BC for feng shui; maritime navigation compass by ~1100 Song dynasty).`,
+        `Mathematics: The Nine Chapters on the Mathematical Art (九章算術, ~200 BC-100 AD) — 246 problems covering arithmetic, algebra, geometry, surveying. Included Gaussian elimination (~1800 years before Gauss!), negative numbers, and the Pythagorean theorem (known as Gougu theorem, independently). Zu Chongzhi (~480 AD) calculated π to 7 decimal places: 3.1415926 < π < 3.1415927 — a record unmatched for 1000 years. He also gave the excellent rational approximation π ≈ 355/113 (accurate to 6 decimal places). Astronomy: extensive star catalogs, precise eclipse prediction, supernova observation of 1054 AD (now the Crab Nebula — recorded by Chinese/Japanese astronomers, missed by Europe). Seismology: Zhang Heng's seismoscope (132 AD) — detected distant earthquake directions using a bronze vessel with dragon heads and toad receivers. Medicine: acupuncture (~2nd century BC), Compendium of Materia Medica (Li Shizhen, 1578 — 1,892 drugs), and variolation (smallpox inoculation ~10th century — preceded Jenner's vaccination by 800 years).`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Scientific Revolution`,
+      sub: `Copernicus, Galileo, Kepler, Newton, birth of modern science`,
+      paragraphs: [
+        `The Scientific Revolution (~1543-1687) transformed European thought from Aristotelian natural philosophy to modern empirical science. Copernicus (1543): De Revolutionibus — heliocentric model challenged 1400 years of Ptolemaic geocentrism. Galileo (1610): telescope revealed Jupiter's moons, Venus phases, sunspots → empirical evidence for heliocentrism; pioneered experimental physics (inclined planes, pendulums); "the book of nature is written in mathematics."`,
+        `Kepler (1609-1619): three laws from Tycho's data (elliptical orbits, equal areas, T²∝a³). Francis Bacon (1620): Novum Organum — inductive method, systematic observation, experimentation. Descartes (1637): analytical geometry (algebra+geometry), mechanical philosophy, Cogito ergo sum. Newton (1687): Principia Mathematica — unified celestial and terrestrial mechanics (F=ma, F=GMm/r², calculus) — the culmination. Key shift: authority of Aristotle/Church → evidence and mathematics; qualitative → quantitative; teleological → mechanistic explanations. Institutions: Royal Society (1660), Académie des Sciences (1666) — peer communication. Instruments: telescope (Galileo 1609), microscope (Hooke 1665: Micrographia, discovered cells), barometer (Torricelli 1644), air pump (Boyle 1659 → gas laws). The revolution wasn't just new facts but a new WAY of knowing — the scientific method as we understand it.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `History of Astronomy`,
+      sub: `Stonehenge, Ptolemy, Copernicus, Galileo telescope, Hubble expansion`,
+      paragraphs: [
+        `Astronomy is humanity's oldest science. Babylonians (~1800 BC) tracked planetary positions and eclipses with remarkable accuracy — predicting lunar eclipses to within hours using the Saros cycle (6585.3 days). Ancient Egypt aligned pyramids to Polaris (then Thuban) and based their calendar on Sirius's heliacal rising. Aristotle (~350 BC) argued Earth is spherical from ships disappearing hull-first and the circular shadow during lunar eclipses. Eratosthenes (~240 BC) measured Earth's circumference using shadow angles in Alexandria vs Syene: ~40,000 km (within 2% of modern value).`,
+        `Ptolemy (~150 AD) codified geocentric astronomy in the Almagest with epicycles — accurate enough to navigate for 1400 years. Copernicus (1543) proposed heliocentrism in De Revolutionibus. Tycho Brahe (~1580) made the most precise pre-telescope observations (2 arcmin). Kepler (1609-1619) derived three laws from Tycho's data. Galileo (1610) used the telescope to see Jupiter's moons, Venus phases, and sunspots — confirming heliocentrism. Newton (1687) unified celestial and terrestrial mechanics with universal gravitation. Herschel (1781) discovered Uranus. Hubble (1924) proved galaxies are external; (1929) discovered expansion. Penzias & Wilson (1965): CMB discovery (Nobel 1978). Space age: Sputnik (1957), Apollo 11 (1969), Hubble Space Telescope (1990), JWST (2022). Key modern discoveries: exoplanets (first: 51 Peg b, Nobel 2019), dark energy (Nobel 2011), gravitational waves (Nobel 2017), and the first black hole image (EHT, 2019).`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Babylonian-Egyptian Math`,
+      sub: `Practical Computation`,
+      paragraphs: [],
+      theses: [
+        `why-it-was-pivotal noted.`,
+      ],
+    },
+    {
+      title: `Islamic Golden Age`,
+      sub: `Algebra Born`,
+      paragraphs: [],
+      theses: [
+        `why-it-was-pivotal noted.`,
+      ],
+    },
+    {
+      title: `History of Neuroscience`,
+      sub: `Trephination, Cajal neuron doctrine, Sherrington synapse, Hodgkin-Huxley, fMRI`,
+      paragraphs: [
+        `Neuroscience evolved from philosophical speculation about the mind to a rigorous molecular-cellular science. Ancient Egypt (~1700 BC): Edwin Smith Papyrus described brain injuries and their effects — first written record linking brain to behavior. Hippocrates (~400 BC): "Men ought to know that from the brain come joys, sorrows, and tears" — argued against Aristotle who placed the mind in the heart. Galen (~170 AD): experiments on gladiators/animals identified nerves as conduits from brain.`,
+        `Santiago Ramón y Cajal (Nobel 1906): using Golgi's staining method, proved the neuron doctrine — the brain is made of individual cells (neurons), not a continuous network (reticular theory). His exquisite drawings of neurons remain scientifically accurate. Charles Sherrington (Nobel 1932): coined "synapse," mapped spinal reflexes, established integrative neural function. Alan Hodgkin & Andrew Huxley (Nobel 1963): recorded action potentials in squid giant axon → mathematical model of voltage-gated Na⁺/K⁺ channels: I_Na = g_Na·m³h(V−E_Na) — THE foundational equation of computational neuroscience. Eric Kandel (Nobel 2000): molecular basis of memory in Aplysia sea slug — cAMP/CREB pathway strengthens synapses during learning. Roger Sperry (Nobel 1981): split-brain experiments revealed hemispheric specialization (left: language, right: spatial). Modern era: fMRI (1990s — brain activity via BOLD signal), optogenetics (Deisseroth, 2005 — control specific neurons with light using channelrhodopsin), BRAIN Initiative (2013, US — map complete neural circuits), Neuropixels (2017 — 384 electrodes recording ~1000 neurons simultaneously), and connectomics (complete wiring diagrams — C. elegans 1986, Drosophila 2024). The brain remains the most complex known object: ~86 billion neurons, ~150 trillion synapses, consuming only ~20 watts.`,
+      ],
+      theses: [],
+    },
+    {
+      title: `Islamic Golden Age Science`,
+      sub: `Al-Khwarizmi, Alhazen optics, Ibn Sina medicine, astrolabe, House of Wisdom`,
+      paragraphs: [
+        `The Islamic Golden Age (~750-1258 AD) produced extraordinary advances in mathematics, astronomy, optics, medicine, and chemistry, preserving and extending Greek/Indian knowledge during European intellectual stagnation. Baghdad's House of Wisdom (Bayt al-Hikma, ~830) under Caliph al-Ma'mun translated Greek texts (Euclid, Ptolemy, Aristotle, Galen) into Arabic — without these translations, much of Greek science would have been lost forever.`,
+        `Mathematics: Al-Khwarizmi (~820) wrote the foundational algebra text (al-Jabr → "algebra"; his name → "algorithm") and transmitted the Hindu-Arabic decimal system to the Islamic world → Europe. Omar Khayyam (~1070): classified and solved cubic equations geometrically using conic section intersections. Al-Kashi (~1420): calculated π to 16 decimal places — a record for 2 centuries. Optics: Ibn al-Haytham (Alhazen, ~1020, Kitab al-Manazir) — arguably the first modern scientist: proposed intromission theory of vision (light enters eye from objects, not vice versa — overturning Ptolemy/Euclid), performed experiments with camera obscura, studied refraction/reflection, and pioneered the scientific method (hypothesis → controlled experiment → conclusion). Astronomy: Nasir al-Din al-Tusi (1201-1274): Tusi couple (linear motion from two circular motions — later used by Copernicus without attribution). Medicine: Ibn Sina (Avicenna, Canon of Medicine, ~1025): 5-volume encyclopedia used as a medical textbook in Europe until the 17th century. Al-Razi (Rhazes): first to distinguish smallpox from measles; pioneered clinical observation. Chemistry: Jabir ibn Hayyan (Geber, ~800): distillation, crystallization, discovered mineral acids — "father of chemistry" (alkali, alcohol, alembic are all Arabic-origin words).`,
+      ],
+      theses: [],
+    },
+    {
+      title: `History of Climate Science`,
+      sub: `Fourier greenhouse, Arrhenius CO2, Keeling curve, IPCC, Paris Agreement`,
+      paragraphs: [
+        `Climate science evolved over 200 years from theoretical physics to global policy driver. Joseph Fourier (1824): first proposed that the atmosphere traps heat ("greenhouse effect" concept). John Tyndall (1859): experimentally demonstrated that CO₂ and H₂O absorb infrared radiation while N₂ and O₂ do not → identified greenhouse gases. Svante Arrhenius (1896): calculated that doubling CO₂ would raise temperature ~5-6°C — remarkably close to modern estimates of 2.5-4.0°C (he used pen and paper for months of calculation!).`,
+        `Charles David Keeling (1958): began continuous CO₂ measurements at Mauna Loa → the Keeling Curve — humanity's most important graph: CO₂ rose from 315 ppm (1958) → 425 ppm (2024), a 35% increase, with seasonal oscillations from Northern Hemisphere vegetation. Syukuro Manabe (Nobel 2021): developed first climate model (1967) predicting ~2°C warming per CO₂ doubling using radiative-convective equilibrium. James Hansen (1988): testified before US Congress that global warming was detectable — put climate change on the political agenda. IPCC (Intergovernmental Panel on Climate Change, 1990): established by UN/WMO → synthesis reports every ~7 years, involving thousands of scientists. IPCC AR6 (2021-2023): "It is unequivocal that human influence has warmed the atmosphere, ocean and land." Paris Agreement (2015): 196 nations agreed to limit warming to well below 2°C, preferably 1.5°C above pre-industrial — requires net-zero emissions by ~2050. Current warming: ~1.2°C above pre-industrial (2024); 2023 was the hottest year on record. Evidence: isotopic signature of fossil fuel CO₂ (¹³C depletion), simultaneous stratospheric cooling + surface warming (greenhouse signature), and 800 kyr ice core record showing current CO₂ unprecedented.`,
+      ],
+      theses: [],
+    },
+  ],
+};
